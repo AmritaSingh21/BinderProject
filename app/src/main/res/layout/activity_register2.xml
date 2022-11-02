@@ -21,190 +21,190 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
-            <TextView
-                android:id="@+id/labelUserId"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/labelUserId"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserId"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:text="@string/labelUserId"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <EditText
-                android:id="@+id/editUserId"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/EditUserId"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:textColor="@color/dark_gray"
-                android:textColorHighlight="@color/dark_blue"
-                android:textColorLink="@color/dark_gray"
-                android:textSize="16sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
-
-
-            <TextView
-                android:id="@+id/labelUserPw"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/labelUserPw"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/editUserPw"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/EditUserPw"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:textColor="@color/dark_gray"
-                android:textColorHighlight="@color/dark_blue"
-                android:textColorLink="@color/dark_gray"
-                android:textSize="16sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+<!--            <EditText-->
+<!--                android:id="@+id/editUserId"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="@string/EditUserId"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textColorHighlight="@color/dark_blue"-->
+<!--                android:textColorLink="@color/dark_gray"-->
+<!--                android:textSize="16sp"-->
+<!--                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />-->
 
 
-            <TextView
-                android:id="@+id/labelUserFname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/labelUserFName"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserPw"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="@string/labelUserPw"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <EditText
-                android:id="@+id/editUserFname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/EditUserFName"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:textColor="@color/dark_gray"
-                android:textColorHighlight="@color/dark_blue"
-                android:textColorLink="@color/dark_gray"
-                android:textSize="16sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
-
-
-            <TextView
-                android:id="@+id/labelUserLname"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/labelUserLName"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/editUserLname"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/EditUserLName"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:textColor="@color/dark_gray"
-                android:textColorHighlight="@color/dark_blue"
-                android:textColorLink="@color/dark_gray"
-                android:textSize="16sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+<!--            <EditText-->
+<!--                android:id="@+id/editUserPw"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="@string/EditUserPw"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textColorHighlight="@color/dark_blue"-->
+<!--                android:textColorLink="@color/dark_gray"-->
+<!--                android:textSize="16sp"-->
+<!--                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />-->
 
 
-            <TextView
-                android:id="@+id/labelUserAdr"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/labelUserAdr"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserFname"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="@string/labelUserFName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
 
-            <EditText
-                android:id="@+id/editUserAdr"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/EditUserAdr"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:textColor="@color/dark_gray"
-                android:textColorHighlight="@color/dark_blue"
-                android:textColorLink="@color/dark_gray"
-                android:textSize="16sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
-
-
-            <TextView
-                android:id="@+id/labelUserAge"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/labelUserAge"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/editUserAge"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginEnd="20dp"
-                android:ems="10"
-                android:gravity="center"
-                android:hint="@string/EditUserAge"
-                android:importantForAutofill="no"
-                android:inputType="textPersonName"
-                android:textColor="@color/dark_gray"
-                android:textColorHighlight="@color/dark_blue"
-                android:textColorLink="@color/dark_gray"
-                android:textSize="16sp"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+<!--            <EditText-->
+<!--                android:id="@+id/editUserFname"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="@string/EditUserFName"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textColorHighlight="@color/dark_blue"-->
+<!--                android:textColorLink="@color/dark_gray"-->
+<!--                android:textSize="16sp"-->
+<!--                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />-->
 
 
-            <TextView
-                android:id="@+id/labelUserInterest"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="20dp"
-                android:layout_marginTop="5dp"
-                android:text="@string/labelUserInterest"
-                android:textColor="@color/dark_gray"
-                android:textSize="14sp"
-                android:textStyle="bold" />
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserLname"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="@string/labelUserLName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editUserLname"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="@string/EditUserLName"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textColorHighlight="@color/dark_blue"-->
+<!--                android:textColorLink="@color/grey"-->
+<!--                android:textSize="16sp"-->
+<!--                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserAdr"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="@string/labelUserAdr"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editUserAdr"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="@string/EditUserAdr"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textColorHighlight="@color/dark_blue"-->
+<!--                android:textColorLink="@color/dark_gray"-->
+<!--                android:textSize="16sp"-->
+<!--                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserAge"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="@string/labelUserAge"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/editUserAge"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginEnd="20dp"-->
+<!--                android:ems="10"-->
+<!--                android:gravity="center"-->
+<!--                android:hint="@string/EditUserAge"-->
+<!--                android:importantForAutofill="no"-->
+<!--                android:inputType="textPersonName"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textColorHighlight="@color/dark_blue"-->
+<!--                android:textColorLink="@color/dark_gray"-->
+<!--                android:textSize="16sp"-->
+<!--                tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />-->
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/labelUserInterest"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="20dp"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:text="@string/labelUserInterest"-->
+<!--                android:textColor="@color/dark_gray"-->
+<!--                android:textSize="14sp"-->
+<!--                android:textStyle="bold" />-->
         </LinearLayout>
 
     </ScrollView>
