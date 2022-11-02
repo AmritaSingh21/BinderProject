@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Binder</string>
+    <string name="labelUserId">User id</string>
+</resources>
