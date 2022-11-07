@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">Binder</string>
     <string name="labelUserId">User id</string>
+    <string name="EditUserId">User ID</string>
+    <string name="labelName">Name:</string>
+    <string name="editName">Enter Name</string>
+    <string name="labelUserPw">Password:</string>
+    <string name="EditUserPw">Enter Password</string>
+    <string name="labelEmail">Email:</string>
+    <string name="editEmail">Enter Email</string>
+    <string name="labelDOB">Date of Birth:</string>
+    <string name="labelGender">Gender</string>
+    <string name="labelBio">Bio:</string>
+    <string name="editBio">Enter Bio</string>
+    <string name="labelGenres">Preferred Genres:</string>
 </resources>
