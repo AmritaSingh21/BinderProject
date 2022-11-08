@@ -11,7 +11,7 @@
 9-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:6:5-34:19
+11-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:6:5-43:19
 12        android:allowBackup="true"
 12-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,60 +35,73 @@
 23-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:14:9-44
 24        <activity
 24-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:16:9-18:40
-25            android:name="com.example.binder.register2"
-25-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:17:13-38
+25            android:name="com.example.binder.SignIn"
+25-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:17:13-35
 26            android:exported="false" />
 26-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:18:13-37
 27        <activity
-27-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:19:9-26:20
-28            android:name="com.example.binder.Welcome"
-28-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:20:13-36
-29            android:exported="true" >
-29-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:21:13-36
-30            <intent-filter>
-30-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:22:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:17-69
-31-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:17-77
-33-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36        <activity
-36-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:27:9-33:20
-37            android:name="com.example.binder.MainActivity"
-37-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:13-41
-38            android:exported="true" >
-38-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:29:13-36
-39
-40            <!-- <intent-filter> -->
-41            <!-- <action android:name="android.intent.action.MAIN" /> -->
-42            <!-- </intent-filter> -->
-43        </activity>
-44
-45        <provider
-45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-46            android:name="androidx.startup.InitializationProvider"
-46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-47            android:authorities="com.example.binder.androidx-startup"
-47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-48            android:exported="false" >
-48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-49            <meta-data
-49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-50                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-51                android:value="androidx.startup" />
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-52            <meta-data
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-53                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-54                android:value="androidx.startup" />
-54-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-55        </provider>
-56    </application>
-57
-58</manifest>
+27-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:19:9-21:40
+28            android:name="com.example.binder.register2"
+28-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:20:13-38
+29            android:exported="false" />
+29-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:21:13-37
+30        <activity
+30-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:22:9-30:20
+31            android:name="com.example.binder.Welcome"
+31-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:13-36
+32            android:exported="true" >
+32-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:13-36
+33            <intent-filter>
+33-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:25:13-29:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:26:17-69
+34-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:26:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:17-77
+36-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:31:9-38:20
+40            android:name="com.example.binder.MainActivity"
+40-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:32:13-41
+41            android:exported="true" >
+41-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:33:13-36
+42
+43            <!-- <intent-filter> -->
+44            <!-- <action android:name="android.intent.action.MAIN" /> -->
+45            <!-- </intent-filter> -->
+46        </activity>
+47
+48        <meta-data
+48-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:40:9-42:57
+49            android:name="preloaded_fonts"
+49-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:41:13-43
+50            android:resource="@array/preloaded_fonts" />
+50-->C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:42:13-54
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.binder.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\DELL\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>

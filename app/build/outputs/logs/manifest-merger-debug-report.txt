@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.1] C:\Users\DELL\.gradle\caches\transforms-3\9957f677aa4ca64938f214cf1fa220ad\transformed\appcompat-resources-1.5.1\AndroidManifest.xml:17:1-22:12
@@ -44,27 +44,27 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\DELL\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\be78f20c96fdd8562774ce9c33a112b9\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\DELL\.gradle\caches\transforms-3\f1c1f6112ea6a1f399972dce89bf2eda\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\cdcb8e50109b2c2b9e961e9ab007ca34\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
-INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:4:5-33
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-36:12
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:1-45:12
 		INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:6:5-34:19
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:6:5-43:19
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.7.0] C:\Users\DELL\.gradle\caches\transforms-3\b26501d9553d08a11b3cfe721422cf55\transformed\material-1.7.0\AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\DELL\.gradle\caches\transforms-3\7973dc37a0b9b77da65b027e645a80f7\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -99,34 +99,46 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\DE
 		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:14:9-44
 	android:dataExtractionRules
 		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:8:9-65
-activity#com.example.binder.register2
+activity#com.example.binder.SignIn
 ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:16:9-18:40
 	android:exported
 		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:17:13-38
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:17:13-35
+activity#com.example.binder.register2
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:20:13-38
 activity#com.example.binder.Welcome
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:19:9-26:20
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:21:13-36
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:13-36
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:22:13-25:29
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:27-74
 activity#com.example.binder.MainActivity
-ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:27:9-33:20
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:31:9-38:20
 	android:exported
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:29:13-36
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:33:13-36
 	android:name
-		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:13-41
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:32:13-41
+meta-data#preloaded_fonts
+ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:40:9-42:57
+	android:resource
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:42:13-54
+	android:name
+		ADDED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:41:13-43
 uses-sdk
 INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\DELL\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml

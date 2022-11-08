@@ -22,6 +22,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Binder" >
         <activity
+            android:name="com.example.binder.SignIn"
+            android:exported="false" />
+        <activity
             android:name="com.example.binder.register2"
             android:exported="false" />
         <activity
@@ -41,6 +44,10 @@
             <!-- <action android:name="android.intent.action.MAIN" /> -->
             <!-- </intent-filter> -->
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

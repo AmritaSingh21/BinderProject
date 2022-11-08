@@ -1,35 +1,51 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\drawable\\ic_baseline_person_outline_24.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-pngs-24:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\layout\\activity_sign_in.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\font_dancing_script_bold.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\font\\dancing_script_bold.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\font_poppins.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\font\\poppins.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\drawable\\ic_baseline_lock_24.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_ic_launcher_background.xml.flat",
@@ -38,18 +54,6 @@
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
-    },
-    {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_rounded_edittext.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\drawable\\rounded_edittext.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/layout_activity_register2.xml.flat",
-        "source": "com.example.binder.app-main-31:/layout/activity_register2.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_background.xml.flat",
@@ -64,20 +68,36 @@
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\xml\\data_extraction_rules.xml"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\layout_activity_welcome.xml.flat",
@@ -90,5 +110,9 @@
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-29:\\drawable_icon.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-31:\\drawable\\icon.png"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "com.example.binder.app-main-31:/drawable/ic_baseline_arrow_forward_24.xml"
     }
 ]

@@ -13,4 +13,9 @@
     <string name="labelBio">Bio:</string>
     <string name="editBio">Enter Bio</string>
     <string name="labelGenres">Preferred Genres:</string>
+    <string name="welcome">Welcome to</string>
+    <string name="binder">Binder</string>
+    <string name="emailHint">Enter email</string>
+    <string name="passHint">Enter password</string>
+    <string name="submit">submit</string>
 </resources>
