@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/light_background"
+    tools:context=".SearchBooks">
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab3"
+        android:layout_width="62dp"
+        android:layout_height="53dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="33dp"
+        android:contentDescription="@string/submit"
+        android:src="@drawable/ic_baseline_search_24"
+        app:backgroundTint="#dc82fd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/inpEmail2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/inpEmail2"
+        android:layout_width="295dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:backgroundTint="#CBEDF6"
+        android:ems="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="Enter book title"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/searchedBooks"
+        app:layout_constraintEnd_toStartOf="@+id/fab3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchedBooks"
+        android:layout_width="match_parent"
+        android:layout_height="555dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fab3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

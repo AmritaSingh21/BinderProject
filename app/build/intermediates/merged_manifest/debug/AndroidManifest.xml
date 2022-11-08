@@ -22,6 +22,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.Binder" >
         <activity
+            android:name="com.example.binder.SearchBooks"
+            android:exported="false" />
+        <activity
+            android:name="com.example.binder.Matches"
+            android:exported="false" />
+        <activity
+            android:name="com.example.binder.LikedBooks"
+            android:exported="false" />
+        <activity
             android:name="com.example.binder.SignIn"
             android:exported="false" />
         <activity

@@ -1272,6 +1272,7 @@ color background_floating_material_light
 color background_material_dark
 color background_material_light
 color black
+color bright_blue
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1334,6 +1335,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color icon_background
+color light_gray
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -2551,6 +2553,8 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable book_cover_2
+drawable border_btn_white
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2559,13 +2563,17 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cover00
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_arrow_left
 drawable ic_baseline_arrow_forward_24
+drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
+drawable ic_baseline_menu_book_24
 drawable ic_baseline_person_outline_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
@@ -2574,11 +2582,14 @@ drawable ic_launcher_foreground
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
+drawable ic_message_icon
 drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_person
 drawable icon
+drawable light_background
 drawable m3_appbar_background
 drawable m3_popupmenu_background_overlay
 drawable m3_radiobutton_ripple
@@ -2748,12 +2759,17 @@ id beginning
 id bestChoice
 id biography
 id blocking
+id book_genre
+id book_year
 id bottom
+id bottom_menu
 id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
 id btnCreate
+id btnMessageIcon
 id btnSignIn
 id buttonPanel
 id cache_measures
@@ -2843,6 +2859,7 @@ id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
 id fab
+id fab2
 id fade
 id fantasy
 id female
@@ -2885,6 +2902,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView4
+id img_message_nav
 id immediateStop
 id included
 id indeterminate
@@ -2909,6 +2927,7 @@ id layout
 id left
 id leftToRight
 id legacy
+id likedBooksList
 id line1
 id line3
 id linear
@@ -2919,6 +2938,7 @@ id marquee
 id masked
 id match_constraint
 id match_parent
+id matchedPeopleList
 id material_clock_display
 id material_clock_face
 id material_clock_hand
@@ -2938,6 +2958,10 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id menu_add_book
+id menu_borrow_book
+id menu_reading_tracker
+id menu_update_book
 id message
 id middle
 id mini
@@ -3129,6 +3153,7 @@ id title
 id titleDividerNoCustom
 id title_template
 id toggle
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -3140,6 +3165,10 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtToolbarTitle
+id uAge
+id uImage
+id uName
 id unchecked
 id uniform
 id unlabeled
@@ -3285,8 +3314,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_liked_books
 layout activity_main
+layout activity_matches
 layout activity_register2
+layout activity_search_books
 layout activity_sign_in
 layout activity_welcome
 layout custom_dialog
@@ -3305,10 +3337,12 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout liked_books_item
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
 layout m3_auto_complete_simple_item
+layout matches_list_item
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3363,6 +3397,8 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu bottom_menu
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
@@ -3398,6 +3434,7 @@ string abc_toolbar_collapse_description
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string backBtn
 string binder
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -3409,6 +3446,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
+string dateLiked
 string editBio
 string editEmail
 string editName
@@ -3420,6 +3458,7 @@ string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
+string imgBookCover
 string item_view_role_description
 string labelBio
 string labelDOB
@@ -3525,6 +3564,8 @@ string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
 string submit
+string txtLikedBooksPage
+string txtMatchedPage
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
