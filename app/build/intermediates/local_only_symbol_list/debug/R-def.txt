@@ -25,6 +25,7 @@ drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_book_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_search_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_message_icon
@@ -50,12 +51,14 @@ id editName
 id editUserPw
 id fab
 id fab2
+id fab3
 id fantasy
 id female
 id fiction
 id imageView4
 id img_message_nav
 id inpEmail
+id inpEmail2
 id inpPass
 id labelBio
 id labelDOB
@@ -78,6 +81,7 @@ id poetry
 id romance
 id scienceFiction
 id scrollView2
+id searchedBooks
 id textView
 id textView2
 id textView3

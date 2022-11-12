@@ -2575,6 +2575,7 @@ drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_book_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2860,6 +2861,7 @@ id expand_activities_button
 id expanded_menu
 id fab
 id fab2
+id fab3
 id fade
 id fantasy
 id female
@@ -2908,6 +2910,7 @@ id included
 id indeterminate
 id info
 id inpEmail
+id inpEmail2
 id inpPass
 id invisible
 id inward
@@ -3074,6 +3077,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id searchedBooks
 id select_dialog_listview
 id selected
 id selection_type
