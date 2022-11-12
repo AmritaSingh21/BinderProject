@@ -1,8 +1,9 @@
 package com.example.binder.Entities;
 
 public class Book {
-    private String title,author,genre,year,isbn,publisher,id;
+    private String title,author,genre,year,isbn,publisher,id, description;
     private double timeSpent;
+    private int picId;
 
     public Book(String title, String author, String genre, String year,
                  String isbn,String publisher,String id) {
@@ -15,7 +16,16 @@ public class Book {
         this.id = id;
     }
 
-    public Book(String title, String author,String isbn, double time){
+    public Book(String title, String author, String genre, String year, String description, int picId) {
+        this.title = title;
+        this.author = author;
+        this.genre = genre;
+        this.year = year;
+        this.description = description;
+        this.picId = picId;
+    }
+
+    public Book(String title, String author, String isbn, double time){
         this.title = title;
         this.author = author;
         this.isbn = isbn;
@@ -55,6 +65,20 @@ public class Book {
         return timeSpent;
     }
 
+    public int getPicId() {
+        return picId;
+    }
 
+    public void setPicId(int picId) {
+        this.picId = picId;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }
 

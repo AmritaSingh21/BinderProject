@@ -213,6 +213,8 @@ attr cardMaxElevation
 attr cardPreventCornerOverlap
 attr cardUseCompatPadding
 attr cardViewStyle
+attr card_gravity
+attr card_spacing
 attr carousel_backwardTransition
 attr carousel_emptyViewsBehavior
 attr carousel_firstView
@@ -786,6 +788,7 @@ attr maxImageSize
 attr maxLines
 attr maxVelocity
 attr maxWidth
+attr max_visible
 attr measureWithLargestChild
 attr menu
 attr menuAlignmentMode
@@ -867,6 +870,7 @@ attr onPositiveCross
 attr onShow
 attr onStateTransition
 attr onTouchUp
+attr opacity_end
 attr overlapAnchor
 attr overlay
 attr paddingBottomNoButtons
@@ -930,9 +934,12 @@ attr region_heightMoreThan
 attr region_widthLessThan
 attr region_widthMoreThan
 attr removeEmbeddedFabElevation
+attr render_above
+attr render_below
 attr reverseLayout
 attr rippleColor
 attr rotationCenterId
+attr rotation_degrees
 attr round
 attr roundPercent
 attr saturation
@@ -1271,6 +1278,9 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color bel_grey_text
+color bel_lightgrey_text
+color bel_red_text
 color black
 color bright_blue
 color bright_foreground_disabled_material_dark
@@ -1285,6 +1295,9 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
 color dark_gray
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
@@ -2751,6 +2764,7 @@ id anticipate
 id arc
 id asConfigured
 id async
+id author
 id auto
 id autoComplete
 id autoCompleteToEnd
@@ -2824,6 +2838,7 @@ id decor_content_parent
 id default_activity_button
 id deltaRelative
 id dependency_ordering
+id description
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -2887,6 +2902,7 @@ id forever
 id fragment_container_view_tag
 id frost
 id fullscreen_header
+id genre
 id ghost_view
 id ghost_view_holder
 id gone
@@ -3133,6 +3149,7 @@ id submit_area
 id supportScrollUp
 id swipeLayout
 id swipeLayout2
+id swipe_deck
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3339,6 +3356,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_book_swipe
+layout activity_book_swipe2
 layout activity_liked_books
 layout activity_main
 layout activity_matches
@@ -3419,6 +3437,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout one_swipe_item
 layout profile_image_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
@@ -4778,6 +4797,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeDeck card_gravity card_spacing max_visible opacity_end render_above render_below rotation_degrees
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

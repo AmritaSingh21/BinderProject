@@ -28,7 +28,7 @@ public class SignIn extends AppCompatActivity {
         btnTest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(SignIn.this,LikedBooks.class));
+                startActivity(new Intent(SignIn.this,BookSwipe2.class));
             }
         });
     }

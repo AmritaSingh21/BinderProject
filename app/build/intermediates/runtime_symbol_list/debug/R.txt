@@ -212,6 +212,8 @@ int attr cardMaxElevation 0x7f04008b
 int attr cardPreventCornerOverlap 0x7f04008c
 int attr cardUseCompatPadding 0x7f04008d
 int attr cardViewStyle 0x7f04008e
+int attr card_gravity 0x7f04048d
+int attr card_spacing 0x7f04048e
 int attr carousel_backwardTransition 0x7f04008f
 int attr carousel_emptyViewsBehavior 0x7f040090
 int attr carousel_firstView 0x7f040091
@@ -785,6 +787,7 @@ int attr maxImageSize 0x7f0402c8
 int attr maxLines 0x7f0402c9
 int attr maxVelocity 0x7f0402ca
 int attr maxWidth 0x7f0402cb
+int attr max_visible 0x7f04048f
 int attr measureWithLargestChild 0x7f0402cc
 int attr menu 0x7f0402cd
 int attr menuAlignmentMode 0x7f0402ce
@@ -866,6 +869,7 @@ int attr onPositiveCross 0x7f040319
 int attr onShow 0x7f04031a
 int attr onStateTransition 0x7f04031b
 int attr onTouchUp 0x7f04031c
+int attr opacity_end 0x7f040490
 int attr overlapAnchor 0x7f04031d
 int attr overlay 0x7f04031e
 int attr paddingBottomNoButtons 0x7f04031f
@@ -929,9 +933,12 @@ int attr region_heightMoreThan 0x7f040358
 int attr region_widthLessThan 0x7f040359
 int attr region_widthMoreThan 0x7f04035a
 int attr removeEmbeddedFabElevation 0x7f04035b
+int attr render_above 0x7f040491
+int attr render_below 0x7f040492
 int attr reverseLayout 0x7f04035c
 int attr rippleColor 0x7f04035d
 int attr rotationCenterId 0x7f04035e
+int attr rotation_degrees 0x7f040493
 int attr round 0x7f04035f
 int attr roundPercent 0x7f040360
 int attr saturation 0x7f040361
@@ -1270,6 +1277,9 @@ int color background_floating_material_dark 0x7f06001d
 int color background_floating_material_light 0x7f06001e
 int color background_material_dark 0x7f06001f
 int color background_material_light 0x7f060020
+int color bel_grey_text 0x7f060266
+int color bel_lightgrey_text 0x7f060267
+int color bel_red_text 0x7f060268
 int color black 0x7f060021
 int color bright_blue 0x7f060022
 int color bright_foreground_disabled_material_dark 0x7f060023
@@ -1284,6 +1294,9 @@ int color cardview_dark_background 0x7f06002b
 int color cardview_light_background 0x7f06002c
 int color cardview_shadow_end_color 0x7f06002d
 int color cardview_shadow_start_color 0x7f06002e
+int color colorAccent 0x7f060269
+int color colorPrimary 0x7f06026a
+int color colorPrimaryDark 0x7f06026b
 int color dark_gray 0x7f06002f
 int color design_bottom_navigation_shadow_color 0x7f060030
 int color design_box_stroke_color 0x7f060031
@@ -2750,6 +2763,7 @@ int id anticipate 0x7f0a0050
 int id arc 0x7f0a0051
 int id asConfigured 0x7f0a0052
 int id async 0x7f0a0053
+int id author 0x7f0a022b
 int id auto 0x7f0a0054
 int id autoComplete 0x7f0a0055
 int id autoCompleteToEnd 0x7f0a0056
@@ -2823,6 +2837,7 @@ int id decor_content_parent 0x7f0a0099
 int id default_activity_button 0x7f0a009a
 int id deltaRelative 0x7f0a009b
 int id dependency_ordering 0x7f0a009c
+int id description 0x7f0a022c
 int id design_bottom_sheet 0x7f0a009d
 int id design_menu_item_action_area 0x7f0a009e
 int id design_menu_item_action_area_stub 0x7f0a009f
@@ -2886,6 +2901,7 @@ int id forever 0x7f0a00d8
 int id fragment_container_view_tag 0x7f0a00d9
 int id frost 0x7f0a00da
 int id fullscreen_header 0x7f0a00db
+int id genre 0x7f0a022d
 int id ghost_view 0x7f0a00dc
 int id ghost_view_holder 0x7f0a00dd
 int id gone 0x7f0a00de
@@ -3132,6 +3148,7 @@ int id submit_area 0x7f0a01ce
 int id supportScrollUp 0x7f0a01cf
 int id swipeLayout 0x7f0a01d0
 int id swipeLayout2 0x7f0a01d1
+int id swipe_deck 0x7f0a022a
 int id tabMode 0x7f0a01d2
 int id tag_accessibility_actions 0x7f0a01d3
 int id tag_accessibility_clickable_spans 0x7f0a01d4
@@ -3338,6 +3355,7 @@ int layout abc_search_view 0x7f0d0019
 int layout abc_select_dialog_material 0x7f0d001a
 int layout abc_tooltip 0x7f0d001b
 int layout activity_book_swipe 0x7f0d001c
+int layout activity_book_swipe2 0x7f0d0072
 int layout activity_liked_books 0x7f0d001d
 int layout activity_main 0x7f0d001e
 int layout activity_matches 0x7f0d001f
@@ -3418,6 +3436,7 @@ int layout notification_template_custom_big 0x7f0d0069
 int layout notification_template_icon_group 0x7f0d006a
 int layout notification_template_part_chronometer 0x7f0d006b
 int layout notification_template_part_time 0x7f0d006c
+int layout one_swipe_item 0x7f0d0073
 int layout profile_image_list 0x7f0d006d
 int layout select_dialog_item_material 0x7f0d006e
 int layout select_dialog_multichoice_material 0x7f0d006f
@@ -6380,6 +6399,14 @@ int[] styleable StateListDrawableItem { 0x01010199 }
 int styleable StateListDrawableItem_android_drawable 0
 int[] styleable StateSet { 0x7f040146 }
 int styleable StateSet_defaultState 0
+int[] styleable SwipeDeck { 0x7f04048d, 0x7f04048e, 0x7f04048f, 0x7f040490, 0x7f040491, 0x7f040492, 0x7f040493 }
+int styleable SwipeDeck_card_gravity 0
+int styleable SwipeDeck_card_spacing 1
+int styleable SwipeDeck_max_visible 2
+int styleable SwipeDeck_opacity_end 3
+int styleable SwipeDeck_render_above 4
+int styleable SwipeDeck_render_below 5
+int styleable SwipeDeck_rotation_degrees 6
 int[] styleable SwitchCompat { 0x01010124, 0x01010125, 0x01010142, 0x7f040381, 0x7f040394, 0x7f0403bf, 0x7f0403c0, 0x7f0403c2, 0x7f04042e, 0x7f04042f, 0x7f040430, 0x7f040456, 0x7f040460, 0x7f040461 }
 int styleable SwitchCompat_android_textOn 0
 int styleable SwitchCompat_android_textOff 1
