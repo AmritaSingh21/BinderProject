@@ -1742,6 +1742,7 @@
     <string description="Content description for an icon that appears in the title area of a dialog" name="icon_content_description">Dialog Icon</string>
     <string name="imgBookCover">book_cover</string>
     <string name="item_view_role_description">Tab</string>
+    <string name="labelAboutme">About Me:</string>
     <string name="labelBio">Bio:</string>
     <string name="labelDOB">Date of Birth:</string>
     <string name="labelEmail">Email:</string>

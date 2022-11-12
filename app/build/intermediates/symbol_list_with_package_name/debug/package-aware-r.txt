@@ -2553,6 +2553,8 @@ drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
+drawable book
+drawable book2
 drawable book_cover_2
 drawable border_btn_white
 drawable btn_checkbox_checked_mtrl
@@ -2575,6 +2577,7 @@ drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_book_24
 drawable ic_baseline_person_outline_24
+drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2759,6 +2762,9 @@ id beginning
 id bestChoice
 id biography
 id blocking
+id bookAuthor
+id bookPic
+id bookTitle
 id book_genre
 id book_year
 id bottom
@@ -2860,6 +2866,7 @@ id expand_activities_button
 id expanded_menu
 id fab
 id fab2
+id fab3
 id fade
 id fantasy
 id female
@@ -2901,13 +2908,16 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView
 id imageView4
+id imgView
 id img_message_nav
 id immediateStop
 id included
 id indeterminate
 id info
 id inpEmail
+id inpEmail2
 id inpPass
 id invisible
 id inward
@@ -2924,6 +2934,10 @@ id labelName
 id labelUserPw
 id labeled
 id layout
+id lblBio
+id lblDescription
+id lblGenres
+id lblYear
 id left
 id leftToRight
 id legacy
@@ -3044,6 +3058,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recycler
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3074,6 +3089,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
+id searchedBooks
 id select_dialog_listview
 id selected
 id selection_type
@@ -3115,6 +3131,8 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
+id swipeLayout
+id swipeLayout2
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3165,7 +3183,13 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id txtAge
+id txtBio
+id txtDescription
+id txtGeneres
+id txtName
 id txtToolbarTitle
+id txtYear
 id uAge
 id uImage
 id uName
@@ -3314,12 +3338,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_book_swipe
 layout activity_liked_books
 layout activity_main
 layout activity_matches
 layout activity_register2
 layout activity_search_books
 layout activity_sign_in
+layout activity_user_profile
 layout activity_welcome
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -3393,6 +3419,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout profile_image_list
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -3460,6 +3487,7 @@ string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string imgBookCover
 string item_view_role_description
+string labelAboutme
 string labelBio
 string labelDOB
 string labelEmail
