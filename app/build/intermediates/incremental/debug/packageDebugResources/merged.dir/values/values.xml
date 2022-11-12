@@ -40,6 +40,7 @@
     <string name="editName">Enter Name</string>
     <string name="emailHint">Enter email</string>
     <string name="imgBookCover">book_cover</string>
+    <string name="labelAboutme">About Me:</string>
     <string name="labelBio">Bio:</string>
     <string name="labelDOB">Date of Birth:</string>
     <string name="labelEmail">Email:</string>

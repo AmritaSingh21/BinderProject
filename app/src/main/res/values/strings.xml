@@ -23,4 +23,5 @@
     <string name="txtLikedBooksPage">Liked Books</string>
     <string name="backBtn">Back button</string>
     <string name="txtMatchedPage">Matches</string>
+    <string name="labelAboutme">About Me:</string>
 </resources>

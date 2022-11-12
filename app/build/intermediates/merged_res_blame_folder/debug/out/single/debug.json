@@ -8,36 +8,100 @@
         "source": "com.example.binder.app-main-31:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_person_outline_24.xml.flat",
-        "source": "com.example.binder.app-main-31:/drawable/ic_baseline_person_outline_24.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/drawable_icon.png.flat",
-        "source": "com.example.binder.app-main-31:/drawable/icon.png"
+        "merged": "com.example.binder.app-merged_res-29:/layout_activity_user_profile.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/activity_user_profile.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_menu_book_24.xml.flat",
         "source": "com.example.binder.app-main-31:/drawable/ic_baseline_menu_book_24.xml"
     },
     {
+        "merged": "com.example.binder.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.binder.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/layout_activity_sign_in.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/activity_sign_in.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable-v24_light_background.png.flat",
+        "source": "com.example.binder.app-main-31:/drawable-v24/light_background.png"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable-v24_book_cover_2.png.flat",
+        "source": "com.example.binder.app-main-31:/drawable-v24/book_cover_2.png"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/layout_activity_matches.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/activity_matches.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.binder.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/menu_menu.xml.flat",
+        "source": "com.example.binder.app-main-31:/menu/menu.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/font_dancing_script_bold.xml.flat",
+        "source": "com.example.binder.app-main-31:/font/dancing_script_bold.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.binder.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.binder.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/layout_profile_image_list.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/profile_image_list.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.binder.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable-v24_border_btn_white.xml.flat",
+        "source": "com.example.binder.app-main-31:/drawable-v24/border_btn_white.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "com.example.binder.app-main-31:/drawable/ic_baseline_arrow_forward_24.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "com.example.binder.app-main-31:/drawable/ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable_book2.jpg.flat",
+        "source": "com.example.binder.app-main-31:/drawable/book2.jpg"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/drawable_icon.png.flat",
+        "source": "com.example.binder.app-main-31:/drawable/icon.png"
+    },
+    {
         "merged": "com.example.binder.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.binder.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-29:/layout_activity_book_swipe.xml.flat",
+        "source": "com.example.binder.app-main-31:/layout/activity_book_swipe.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/drawable-v24_ic_message_icon.xml.flat",
         "source": "com.example.binder.app-main-31:/drawable-v24/ic_message_icon.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-29:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.binder.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "com.example.binder.app-merged_res-29:/layout_liked_books_item.xml.flat",
         "source": "com.example.binder.app-main-31:/layout/liked_books_item.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/layout_activity_sign_in.xml.flat",
-        "source": "com.example.binder.app-main-31:/layout/activity_sign_in.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
@@ -64,12 +128,8 @@
         "source": "com.example.binder.app-main-31:/drawable/ic_baseline_lock_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-29:/drawable-v24_light_background.png.flat",
-        "source": "com.example.binder.app-main-31:/drawable-v24/light_background.png"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/drawable-v24_book_cover_2.png.flat",
-        "source": "com.example.binder.app-main-31:/drawable-v24/book_cover_2.png"
+        "merged": "com.example.binder.app-merged_res-29:/drawable_book.jpg.flat",
+        "source": "com.example.binder.app-main-31:/drawable/book.jpg"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/layout_activity_welcome.xml.flat",
@@ -84,16 +144,8 @@
         "source": "com.example.binder.app-main-31:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-29:/layout_activity_matches.xml.flat",
-        "source": "com.example.binder.app-main-31:/layout/activity_matches.xml"
-    },
-    {
         "merged": "com.example.binder.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
         "source": "com.example.binder.app-main-31:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.binder.app-main-31:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/font_poppins.xml.flat",
@@ -112,16 +164,8 @@
         "source": "com.example.binder.app-main-31:/layout/matches_list_item.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-29:/menu_menu.xml.flat",
-        "source": "com.example.binder.app-main-31:/menu/menu.xml"
-    },
-    {
         "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_search_24.xml.flat",
         "source": "com.example.binder.app-main-31:/drawable/ic_baseline_search_24.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/font_dancing_script_bold.xml.flat",
-        "source": "com.example.binder.app-main-31:/font/dancing_script_bold.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/drawable_rounded_edittext.xml.flat",
@@ -148,35 +192,11 @@
         "source": "com.example.binder.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.binder.app-pngs-24:/drawable-anydpi-v24/ic_launcher_foreground.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/drawable-v24_border_btn_white.xml.flat",
-        "source": "com.example.binder.app-main-31:/drawable-v24/border_btn_white.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.binder.app-main-31:/layout/activity_main.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "com.example.binder.app-merged_res-29:/layout_activity_search_books.xml.flat",
         "source": "com.example.binder.app-main-31:/layout/activity_search_books.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "com.example.binder.app-main-31:/mipmap-xxxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-29:/drawable_ic_baseline_arrow_forward_24.xml.flat",
-        "source": "com.example.binder.app-main-31:/drawable/ic_baseline_arrow_forward_24.xml"
     }
 ]

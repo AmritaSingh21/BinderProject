@@ -5,5 +5,6 @@
     <item
         android:id="@+id/img_message_nav"
         android:icon="@drawable/ic_message_icon"
-        app:showAsAction="always" />
+        app:showAsAction="always"
+        android:title="TODO" />
 </menu>

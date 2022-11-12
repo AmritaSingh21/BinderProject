@@ -11,7 +11,7 @@
 9-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:6:5-52:19
+11-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:6:5-58:19
 12        android:allowBackup="true"
 12-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:7:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -35,91 +35,103 @@
 23-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:14:9-44
 24        <activity
 24-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:16:9-18:40
-25            android:name="com.example.binder.SearchBooks"
+25            android:name="com.example.binder.UserProfile"
 25-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:17:13-40
 26            android:exported="false" />
 26-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:18:13-37
 27        <activity
 27-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:19:9-21:40
-28            android:name="com.example.binder.Matches"
-28-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:20:13-36
+28            android:name="com.example.binder.BookSwipe"
+28-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:20:13-38
 29            android:exported="false" />
 29-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:21:13-37
 30        <activity
 30-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:22:9-24:40
-31            android:name="com.example.binder.LikedBooks"
-31-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:13-39
+31            android:name="com.example.binder.SearchBooks"
+31-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:23:13-40
 32            android:exported="false" />
 32-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:24:13-37
 33        <activity
 33-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:25:9-27:40
-34            android:name="com.example.binder.SignIn"
-34-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:26:13-35
+34            android:name="com.example.binder.Matches"
+34-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:26:13-36
 35            android:exported="false" />
 35-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:27:13-37
 36        <activity
 36-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:28:9-30:40
-37            android:name="com.example.binder.register2"
-37-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:29:13-38
+37            android:name="com.example.binder.LikedBooks"
+37-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:29:13-39
 38            android:exported="false" />
 38-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:30:13-37
 39        <activity
-39-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:31:9-39:20
-40            android:name="com.example.binder.Welcome"
-40-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:32:13-36
-41            android:exported="true" >
-41-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:33:13-36
-42            <intent-filter>
-42-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:34:13-38:29
-43                <action android:name="android.intent.action.MAIN" />
-43-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:35:17-69
-43-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:35:25-66
-44
-45                <category android:name="android.intent.category.LAUNCHER" />
-45-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:37:17-77
-45-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:37:27-74
-46            </intent-filter>
-47        </activity>
-48        <activity
-48-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:40:9-47:20
-49            android:name="com.example.binder.MainActivity"
-49-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:41:13-41
-50            android:exported="true" >
-50-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:42:13-36
-51
-52            <!-- <intent-filter> -->
-53            <!-- <action android:name="android.intent.action.MAIN" /> -->
-54            <!-- </intent-filter> -->
-55        </activity>
-56
-57        <meta-data
-57-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:49:9-51:57
-58            android:name="preloaded_fonts"
-58-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:50:13-43
-59            android:resource="@array/preloaded_fonts" />
-59-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:51:13-54
-60
-61        <provider
-61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-62            android:name="androidx.startup.InitializationProvider"
-62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-63            android:authorities="com.example.binder.androidx-startup"
-63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-64            android:exported="false" >
-64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-65            <meta-data
-65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-66                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-67                android:value="androidx.startup" />
-67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-68            <meta-data
-68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Amrita Singh\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-69                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-69-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Amrita Singh\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-70                android:value="androidx.startup" />
-70-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Amrita Singh\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-71        </provider>
-72    </application>
-73
-74</manifest>
+39-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:31:9-33:40
+40            android:name="com.example.binder.SignIn"
+40-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:32:13-35
+41            android:exported="false" />
+41-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:33:13-37
+42        <activity
+42-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:34:9-36:40
+43            android:name="com.example.binder.register2"
+43-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:35:13-38
+44            android:exported="false" />
+44-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:36:13-37
+45        <activity
+45-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:37:9-45:20
+46            android:name="com.example.binder.Welcome"
+46-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:38:13-36
+47            android:exported="true" >
+47-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:39:13-36
+48            <intent-filter>
+48-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:40:13-44:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:41:17-69
+49-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:41:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:43:17-77
+51-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:43:27-74
+52            </intent-filter>
+53        </activity>
+54        <activity
+54-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:46:9-53:20
+55            android:name="com.example.binder.MainActivity"
+55-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:47:13-41
+56            android:exported="true" >
+56-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:48:13-36
+57
+58            <!-- <intent-filter> -->
+59            <!-- <action android:name="android.intent.action.MAIN" /> -->
+60            <!-- </intent-filter> -->
+61        </activity>
+62
+63        <meta-data
+63-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:55:9-57:57
+64            android:name="preloaded_fonts"
+64-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:56:13-43
+65            android:resource="@array/preloaded_fonts" />
+65-->C:\Users\Amrita Singh\AndroidStudioProjects\BinderProject\app\src\main\AndroidManifest.xml:57:13-54
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.example.binder.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Amrita Singh\.gradle\caches\transforms-3\9f99c19470d8bf18ee15270d078c3173\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Amrita Singh\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Amrita Singh\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Amrita Singh\.gradle\caches\transforms-3\a68586d9ac6fc4872d4884a947d1c1d5\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+77        </provider>
+78    </application>
+79
+80</manifest>
