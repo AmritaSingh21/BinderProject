@@ -2,6 +2,7 @@ package com.example.binder;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -24,7 +25,7 @@ public class UserProfile extends AppCompatActivity {
 
         RecyclerView recyclerViewTunes = findViewById(R.id.recycler);
         ImageListAdapter adapter = new ImageListAdapter(list);
-        LinearLayoutManager lm = new LinearLayoutManager(this);
+        GridLayoutManager lm = new GridLayoutManager(this, 2);
         recyclerViewTunes.setLayoutManager(lm);
         recyclerViewTunes.setAdapter(adapter);
     }

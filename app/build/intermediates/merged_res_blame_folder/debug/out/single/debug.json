@@ -184,12 +184,12 @@
         "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-32:\\drawable\\ic_baseline_menu_book_24.xml"
     },
     {
-        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-30:\\layout_activity_matches.xml.flat",
-        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-32:\\layout\\activity_matches.xml"
+        "merged": "com.example.binder.app-merged_res-30:/layout_activity_user_profile.xml.flat",
+        "source": "com.example.binder.app-main-32:/layout/activity_user_profile.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-30:/layout_one_swipe_item.xml.flat",
-        "source": "com.example.binder.app-main-32:/layout/one_swipe_item.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-30:\\layout_activity_matches.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-32:\\layout\\activity_matches.xml"
     },
     {
         "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
