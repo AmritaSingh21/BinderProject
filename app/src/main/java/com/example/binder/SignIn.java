@@ -47,6 +47,7 @@ public class SignIn extends AppCompatActivity {
         });
 
         //Sign In Auth
+        auth = FirebaseAuth.getInstance();
         signIn = findViewById(R.id.fab);
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
