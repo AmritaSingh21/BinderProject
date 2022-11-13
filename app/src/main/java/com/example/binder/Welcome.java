@@ -19,7 +19,7 @@ public class Welcome extends AppCompatActivity {
         btnCreateAccount.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Welcome.this,register2.class));
+                startActivity(new Intent(Welcome.this, Register.class));
             }
         });
 

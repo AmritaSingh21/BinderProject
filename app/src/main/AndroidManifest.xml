@@ -38,7 +38,7 @@
             android:name=".SignIn"
             android:exported="false" />
         <activity
-            android:name=".register2"
+            android:name=".Register"
             android:exported="false" />
         <activity
             android:name=".Welcome"

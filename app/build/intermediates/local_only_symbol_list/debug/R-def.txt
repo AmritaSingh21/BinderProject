@@ -50,11 +50,13 @@ id btnBack
 id btnCreate
 id btnMessageIcon
 id btnSignIn
+id btnSignUp
 id datePickerButton
 id description
 id editBio
 id editEmail
 id editName
+id editProfile
 id editUserPw
 id fab
 id fab2
@@ -82,6 +84,7 @@ id lblDescription
 id lblGenres
 id lblYear
 id likedBooksList
+id logout
 id male
 id matchedPeopleList
 id menu_add_book
@@ -120,7 +123,8 @@ layout activity_book_swipe2
 layout activity_liked_books
 layout activity_main
 layout activity_matches
-layout activity_register2
+layout activity_my_profile
+layout activity_register
 layout activity_search_books
 layout activity_sign_in
 layout activity_user_profile
@@ -139,10 +143,16 @@ string app_name
 string backBtn
 string binder
 string dateLiked
+string default_web_client_id
 string editBio
 string editEmail
 string editName
 string emailHint
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
 string imgBookCover
 string labelAboutme
 string labelBio
@@ -154,6 +164,7 @@ string labelName
 string labelUserId
 string labelUserPw
 string passHint
+string project_id
 string submit
 string txtLikedBooksPage
 string txtMatchedPage
