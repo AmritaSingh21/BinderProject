@@ -2,6 +2,8 @@ package com.example.binder;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +12,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.example.binder.Adapters.ImageListAdapter;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MyProfile extends AppCompatActivity {
 
@@ -24,6 +30,15 @@ public class MyProfile extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_profile);
+
+        List<Integer> list = new ArrayList<>();
+        list.add(R.drawable.book);
+
+        RecyclerView recyclerViewTunes = findViewById(R.id.recycler);
+        ImageListAdapter adapter = new ImageListAdapter(list);
+        GridLayoutManager lm = new GridLayoutManager(this, 2);
+        recyclerViewTunes.setLayoutManager(lm);
+        recyclerViewTunes.setAdapter(adapter);
 
         logout = findViewById(R.id.logout);
         auth = FirebaseAuth.getInstance();
@@ -42,9 +57,9 @@ public class MyProfile extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user == null) {
-//                    startActivity(new Intent(MyProfile.this, Welcome.class));
-                    Log.i("testRes","not logged in");
-//                    finish();
+                    Log.d("MyProfile", "user null");
+                    startActivity(new Intent(MyProfile.this, Welcome.class));
+                    finish();
                 } else {
                     // TODO fetch user from db and display info
                 }
