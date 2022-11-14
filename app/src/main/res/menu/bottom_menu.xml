@@ -11,7 +11,7 @@
         android:title="Books" />
     <item
         android:id="@+id/menu_borrow_book"
-        android:icon="@drawable/icon"
+        android:icon="@drawable/heart"
         android:title="Likes" />
     <item
         android:id="@+id/menu_reading_tracker"

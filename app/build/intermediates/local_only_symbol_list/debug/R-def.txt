@@ -15,12 +15,15 @@ color purple_700
 color teal_200
 color teal_700
 color white
+drawable app_bg
+drawable app_bg2
 drawable background
 drawable book
 drawable book2
 drawable book_cover_2
 drawable border_btn_white
 drawable cover00
+drawable heart
 drawable ic_arrow_left
 drawable ic_baseline_arrow_forward_24
 drawable ic_baseline_home_24

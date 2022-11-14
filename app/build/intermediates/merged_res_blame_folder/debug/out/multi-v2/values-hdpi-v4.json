@@ -4,7 +4,7 @@
             "outputFile": "com.example.binder.app-mergeDebugResources-33:/values-hdpi-v4/values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Amrita Singh\\.gradle\\caches\\transforms-3\\7587ab50b737894555b8d05c94504219\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\7587ab50b737894555b8d05c94504219\\transformed\\appcompat-1.5.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

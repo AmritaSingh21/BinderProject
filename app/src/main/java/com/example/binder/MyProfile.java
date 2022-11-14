@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -41,8 +42,9 @@ public class MyProfile extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user == null) {
-                    startActivity(new Intent(MyProfile.this, Welcome.class));
-                    finish();
+//                    startActivity(new Intent(MyProfile.this, Welcome.class));
+                    Log.i("testRes","not logged in");
+//                    finish();
                 } else {
                     // TODO fetch user from db and display info
                 }

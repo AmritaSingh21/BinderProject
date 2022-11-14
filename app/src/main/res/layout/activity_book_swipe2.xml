@@ -1,19 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:swipedeck="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/app_bg2">
 
     <!--on below line we are creating a swipe
          frame layout for providing a swipe action-->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+        <!-- back page icon -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_arrow_left"
+            android:contentDescription="@string/backBtn"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+        <!-- page title -->
+        <TextView
+            android:id="@+id/txtToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txtMatchedPage"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!-- message icon -->
+        <ImageButton
+            android:id="@+id/btnMessageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_message_icon"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+    </androidx.appcompat.widget.Toolbar>
     <com.daprlabs.cardstack.SwipeFrameLayout
         android:layout_width="match_parent"
         android:layout_height="593dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+
+        >
 
         <!--below widget is used for creating a swipe deck-->
         <!--in below widget card spacing is the spacing between cards
@@ -23,13 +65,30 @@
         <com.daprlabs.cardstack.SwipeDeck
             android:id="@+id/swipe_deck"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="609dp"
             android:padding="20dp"
             swipedeck:card_spacing="10dp"
-            swipedeck:max_visible="3"
+            swipedeck:max_visible="1"
             swipedeck:render_above="true"
-            swipedeck:rotation_degrees="15" />
+            swipedeck:rotation_degrees="15"
+            />
 
     </com.daprlabs.cardstack.SwipeFrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-2dp"
+        android:elevation="4dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:itemIconSize="18dp"
+        app:itemIconTint="@color/bright_blue"
+        app:itemTextColor="#007CD3"
+        app:menu="@menu/bottom_menu" />
 
 </RelativeLayout>
