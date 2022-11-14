@@ -2,6 +2,7 @@ package com.example.binder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
@@ -9,6 +10,7 @@ import android.widget.Toast;
 import com.daprlabs.cardstack.SwipeDeck;
 import com.example.binder.Adapters.SwipeAdapter;
 import com.example.binder.Entities.Book;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.ArrayList;
 
@@ -71,6 +73,26 @@ public class BookSwipe2 extends AppCompatActivity {
                 // this method is called when card is moved up.
                 Log.i("TAG", "CARDS MOVED UP");
             }
+        });
+
+        BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
+
+        bottom_menu.setSelectedItemId(R.id.menu_home);
+        bottom_menu.setOnItemSelectedListener(menuItem->{
+            switch (menuItem.getItemId()){
+                case(R.id.menu_searchBook):
+                    startActivity(new Intent(BookSwipe2.this,SearchBooks.class));
+                    break;
+                case (R.id.menu_likedBooks):
+                    startActivity(new Intent(BookSwipe2.this,LikedBooks.class));
+                    break;
+                case (R.id.menu_my_profile):
+                    startActivity(new Intent(BookSwipe2.this,MyProfile.class));
+                    break;
+                default:
+                    break;
+            }
+            return true;
         });
 
     }

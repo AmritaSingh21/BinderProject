@@ -5,17 +5,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".UserProfile"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/app_bg2">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+        <!-- back page icon -->
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_arrow_left"
+            android:contentDescription="@string/backBtn"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+        <!-- page title -->
+        <TextView
+            android:id="@+id/txtToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/txtMatchedPage"
+            android:textColor="@color/dark_gray"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!-- message icon -->
+        <ImageButton
+            android:id="@+id/btnMessageIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/ic_baseline_edit_24"
+            android:minWidth="24dp"
+            android:minHeight="24dp"
+            tools:ignore="SpeakableTextPresentCheck,DuplicateSpeakableTextCheck,TouchTargetSizeCheck" />
+    </androidx.appcompat.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="198dp"
+        android:layout_height="200dp"
         android:orientation="horizontal">
 
 
         <androidx.cardview.widget.CardView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
             android:layout_margin="5dp"
             android:elevation="10dp"
             app:cardCornerRadius="100dp">
@@ -24,7 +65,7 @@
                 android:id="@+id/uImage"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/white"
+                android:background="@drawable/prof_pic"
                 android:scaleType="centerCrop" />
         </androidx.cardview.widget.CardView>
 
@@ -55,7 +96,7 @@
                 android:layout_marginTop="5dp"
                 android:text="24"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/lblBio"
@@ -65,7 +106,7 @@
                 android:layout_marginTop="5dp"
                 android:text="@string/labelAboutme"
                 android:textColor="@color/dark_gray"
-                android:textSize="20sp" />
+                android:textSize="17sp" />
 
             <TextView
                 android:id="@+id/txtBio"
@@ -75,50 +116,32 @@
                 android:layout_marginTop="5dp"
                 android:text="abcd...."
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="17sp" />
 
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/editProfile"
-            android:layout_width="0dp"
-            android:layout_height="47dp"
-            android:layout_marginBottom="237dp"
-            android:layout_weight="1"
-            android:background="@drawable/rounded_edittext"
-            android:text="Edit Profile"
-            android:theme="@style/Button.White"
-            app:cornerRadius="20dp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="0dp"
-            android:layout_height="47dp"
-            android:layout_marginBottom="237dp"
-            android:layout_weight="1"
-            android:background="@drawable/rounded_edittext"
-            android:text="Logout"
-            android:theme="@style/Button.White"
-            app:cornerRadius="20dp"
-            tools:ignore="TouchTargetSizeCheck" />
-
-    </LinearLayout>
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="307dp"
         android:layout_marginTop="20dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/signIn"
+        android:layout_width="57dp"
+        android:layout_height="58dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="6dp"
+        android:contentDescription="@string/submit"
+        android:src="@drawable/ic_baseline_exit_to_app_24"
+        app:backgroundTint="#dc82fd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpPass" />
 
 
 </LinearLayout>

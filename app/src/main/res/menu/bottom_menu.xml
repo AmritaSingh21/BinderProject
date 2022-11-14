@@ -2,19 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- menu for the bottom menu -->
     <item
-        android:id="@+id/menu_add_book"
+        android:id="@+id/menu_home"
         android:icon="@drawable/ic_baseline_home_24"
         android:title="Home" />
     <item
-        android:id="@+id/menu_update_book"
+        android:id="@+id/menu_searchBook"
         android:icon="@drawable/ic_baseline_menu_book_24"
         android:title="Books" />
     <item
-        android:id="@+id/menu_borrow_book"
+        android:id="@+id/menu_likedBooks"
         android:icon="@drawable/heart"
         android:title="Likes" />
     <item
-        android:id="@+id/menu_reading_tracker"
+        android:id="@+id/menu_my_profile"
         android:icon="@drawable/ic_baseline_person_outline_24"
         android:title="Profile" />
 </menu>

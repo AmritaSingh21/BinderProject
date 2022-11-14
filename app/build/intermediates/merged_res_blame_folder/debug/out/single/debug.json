@@ -8,10 +8,6 @@
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_arrow_left.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_one_swipe_item.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/one_swipe_item.xml"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
@@ -132,6 +128,10 @@
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_arrow_forward_24.xml"
     },
     {
+        "merged": "com.example.binder.app-merged_res-35:/menu_bottom_menu.xml.flat",
+        "source": "com.example.binder.app-main-37:/menu/bottom_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_one_swipe_item.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\one_swipe_item.xml"
     },
@@ -146,6 +146,10 @@
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_person_outline_24.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_person_outline_24.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-35:/layout_activity_user_profile.xml.flat",
+        "source": "com.example.binder.app-main-37:/layout/activity_user_profile.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_book.jpg.flat",
@@ -222,6 +226,10 @@
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_search_books.xml.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_search_books.xml"
+    },
+    {
+        "merged": "com.example.binder.app-merged_res-35:/layout_activity_search_books.xml.flat",
+        "source": "com.example.binder.app-main-37:/layout/activity_search_books.xml"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_book2.jpg.flat",

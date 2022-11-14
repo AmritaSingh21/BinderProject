@@ -2935,7 +2935,6 @@ int id enterAlwaysCollapsed 0x7f0a00cd
 int id exitUntilCollapsed 0x7f0a00ce
 int id expand_activities_button 0x7f0a00cf
 int id expanded_menu 0x7f0a00d0
-int id fab 0x7f0a00d1
 int id fab2 0x7f0a00d2
 int id fab3 0x7f0a00d3
 int id fade 0x7f0a00d4
@@ -2981,7 +2980,6 @@ int id ifRoom 0x7f0a00fb
 int id ignore 0x7f0a00fc
 int id ignoreRequest 0x7f0a00fd
 int id image 0x7f0a00fe
-int id imageView 0x7f0a00ff
 int id imageView4 0x7f0a0100
 int id imgView 0x7f0a0101
 int id img_message_nav 0x7f0a0102
@@ -3047,10 +3045,10 @@ int id material_timepicker_ok_button 0x7f0a013d
 int id material_timepicker_view 0x7f0a013e
 int id material_value_index 0x7f0a013f
 int id matrix 0x7f0a0140
-int id menu_add_book 0x7f0a0141
-int id menu_borrow_book 0x7f0a0142
-int id menu_reading_tracker 0x7f0a0143
-int id menu_update_book 0x7f0a0144
+int id menu_home 0x7f0a0239
+int id menu_likedBooks 0x7f0a023a
+int id menu_my_profile 0x7f0a023b
+int id menu_searchBook 0x7f0a023c
 int id message 0x7f0a0145
 int id middle 0x7f0a0146
 int id mini 0x7f0a0147
@@ -3174,6 +3172,7 @@ int id shortcut 0x7f0a01bc
 int id showCustom 0x7f0a01bd
 int id showHome 0x7f0a01be
 int id showTitle 0x7f0a01bf
+int id signIn 0x7f0a0237
 int id sin 0x7f0a01c0
 int id skipCollapsed 0x7f0a01c1
 int id skipped 0x7f0a01c2

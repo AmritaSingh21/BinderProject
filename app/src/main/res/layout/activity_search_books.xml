@@ -13,24 +13,21 @@
         android:layout_width="62dp"
         android:layout_height="53dp"
         android:layout_gravity="end|bottom"
-        android:layout_marginStart="6dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="33dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="16dp"
         android:contentDescription="@string/submit"
         android:src="@drawable/ic_baseline_search_24"
         app:backgroundTint="#dc82fd"
+        app:layout_constraintBottom_toTopOf="@+id/searchedBooks"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/inpEmail2"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/inpEmail2"
         android:layout_width="295dp"
         android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginTop="36dp"
         android:background="@drawable/rounded_edittext"
         android:backgroundTint="#CBEDF6"
         android:ems="10"
@@ -39,19 +36,34 @@
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/searchedBooks"
         app:layout_constraintEnd_toStartOf="@+id/fab3"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/searchedBooks"
+        android:layout_width="410dp"
+        android:layout_height="507dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottom_menu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpEmail2" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
         android:layout_width="match_parent"
-        android:layout_height="555dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="3dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:itemIconSize="18dp"
+        app:itemIconTint="@color/bright_blue"
+        app:itemTextColor="#007CD3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fab3" />
+        app:menu="@menu/bottom_menu" />
 </androidx.constraintlayout.widget.ConstraintLayout>

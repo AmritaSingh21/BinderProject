@@ -2936,7 +2936,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab
 id fab2
 id fab3
 id fade
@@ -2982,7 +2981,6 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
-id imageView
 id imageView4
 id imgView
 id img_message_nav
@@ -3048,10 +3046,10 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
-id menu_add_book
-id menu_borrow_book
-id menu_reading_tracker
-id menu_update_book
+id menu_home
+id menu_likedBooks
+id menu_my_profile
+id menu_searchBook
 id message
 id middle
 id mini
@@ -3175,6 +3173,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signIn
 id sin
 id skipCollapsed
 id skipped

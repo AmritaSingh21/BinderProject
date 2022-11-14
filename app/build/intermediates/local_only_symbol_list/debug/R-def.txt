@@ -61,14 +61,12 @@ id editEmail
 id editName
 id editProfile
 id editUserPw
-id fab
 id fab2
 id fab3
 id fantasy
 id female
 id fiction
 id genre
-id imageView
 id imageView4
 id imgView
 id img_message_nav
@@ -90,10 +88,10 @@ id likedBooksList
 id logout
 id male
 id matchedPeopleList
-id menu_add_book
-id menu_borrow_book
-id menu_reading_tracker
-id menu_update_book
+id menu_home
+id menu_likedBooks
+id menu_my_profile
+id menu_searchBook
 id mystery
 id nonFiction
 id others
@@ -103,6 +101,7 @@ id romance
 id scienceFiction
 id scrollView2
 id searchedBooks
+id signIn
 id swipeLayout
 id swipeLayout2
 id swipe_deck
