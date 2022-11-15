@@ -49,6 +49,7 @@
     <string name="labelAboutme">About Me:</string>
     <string name="labelBio">Bio:</string>
     <string name="labelDOB">Date of Birth:</string>
+    <string name="labelEditPassword">Password</string>
     <string name="labelEmail">Email:</string>
     <string name="labelGender">Gender</string>
     <string name="labelGenres">Preferred Genres:</string>
@@ -58,8 +59,10 @@
     <string name="passHint">Enter password</string>
     <string name="project_id" translatable="false">binder-f527f</string>
     <string name="submit">submit</string>
+    <string name="txtEditAccountPage">Edit Profile</string>
     <string name="txtLikedBooksPage">Liked Books</string>
     <string name="txtMatchedPage">Matches</string>
+    <string name="txtProfilePage">My Profile</string>
     <string name="welcome">Welcome to</string>
     <style name="Button.White" parent="ThemeOverlay.AppCompat">
         <item name="colorAccent">@android:color/white</item>

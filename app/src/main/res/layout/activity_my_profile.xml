@@ -31,13 +31,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/txtMatchedPage"
+            android:text="@string/txtProfilePage"
             android:textColor="@color/dark_gray"
             android:textSize="20sp"
             android:textStyle="bold" />
         <!-- message icon -->
         <ImageButton
-            android:id="@+id/btnMessageIcon"
+            android:id="@+id/btnEditProf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
@@ -126,11 +126,11 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler"
         android:layout_width="match_parent"
-        android:layout_height="307dp"
+        android:layout_height="262dp"
         android:layout_marginTop="20dp" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/signIn"
+        android:id="@+id/logOut"
         android:layout_width="57dp"
         android:layout_height="58dp"
         android:layout_gravity="end|bottom"
@@ -142,6 +142,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inpPass" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_menu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="-2dp"
+        android:elevation="4dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:itemIconSize="18dp"
+        app:itemIconTint="@color/bright_blue"
+        app:itemTextColor="#007CD3"
+        app:menu="@menu/bottom_menu" />
 
 
 </LinearLayout>

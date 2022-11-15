@@ -30,7 +30,10 @@ public class LikedBooks extends AppCompatActivity implements BooksAdapter.ItemCl
 
         bList = new ArrayList<>();
         Book b = new Book("Harry Potter","JK Rowlins","Fiction","2002","83752662893","AB Pubs","1");
+        Book b2 = new Book("Naruto","Hokage","Fiction","2002","83752662893","AB Pubs","1");
+
         bList.add(b);
+        bList.add(b2);
 
         recyclerView = findViewById(R.id.likedBooksList);
         layoutManager= new LinearLayoutManager(this);

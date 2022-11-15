@@ -7,22 +7,6 @@
     android:background="@drawable/background"
     tools:context=".SignIn">
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="end|bottom"
-        android:layout_marginBottom="187dp"
-        android:contentDescription="@string/submit"
-        android:src="@drawable/ic_baseline_arrow_forward_24"
-        app:backgroundTint="#dc82fd"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.752"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpPass"
-        app:layout_constraintVertical_bias="0.976" />
-
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
@@ -72,7 +56,8 @@
         app:layout_constraintBottom_toTopOf="@+id/inpPass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <EditText
         android:id="@+id/inpPass"
@@ -88,13 +73,14 @@
         android:importantForAutofill="no"
         android:inputType="textPassword"
         android:textSize="24sp"
-        app:layout_constraintBottom_toTopOf="@+id/signIn"
+        app:layout_constraintBottom_toTopOf="@+id/logOut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/inpEmail"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/signIn"
+        android:id="@+id/logOut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"

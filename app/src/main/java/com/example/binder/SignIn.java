@@ -1,21 +1,13 @@
 package com.example.binder;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.OnFailureListener;
-import com.google.android.gms.tasks.Task;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class SignIn extends AppCompatActivity {
@@ -32,7 +24,7 @@ public class SignIn extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_in);
 
-        signIn = findViewById(R.id.signIn);
+        signIn = findViewById(R.id.logOut);
 
         signIn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,14 +33,11 @@ public class SignIn extends AppCompatActivity {
             }
         });
 
+        inpEmail = findViewById(R.id.inpEmail);
+        inpPass = findViewById(R.id.inpPass);
 
-
-
-//        inpEmail = findViewById(R.id.inpEmail);
-//        inpPass = findViewById(R.id.inpPass);
-//
-//        inpEmail.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_person_outline_24, 0, 0, 0);
-//        inpPass.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_lock_24, 0, 0, 0);
+        inpEmail.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_person_outline_24, 0, 0, 0);
+        inpPass.setCompoundDrawablesWithIntrinsicBounds(R.drawable.ic_baseline_lock_24, 0, 0, 0);
 
         // Testing fab
 //        btnTest = findViewById(R.id.fab2);

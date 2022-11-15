@@ -33,7 +33,7 @@
             app:layout_constraintTop_toTopOf="parent" />
         <!-- message icon -->
         <ImageButton
-            android:id="@+id/btnMessageIcon"
+            android:id="@+id/btnEditProf"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="end"
