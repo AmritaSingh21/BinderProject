@@ -27,7 +27,7 @@ public class Matches extends AppCompatActivity implements MatchesAdapter.ItemCli
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matches);
 
-        users.add(new User("Prabh","20"));
+        //users.add(new User("Prabh","20"));
 
         recyclerView = findViewById(R.id.matchedPeopleList);
         layoutManager = new LinearLayoutManager(this);

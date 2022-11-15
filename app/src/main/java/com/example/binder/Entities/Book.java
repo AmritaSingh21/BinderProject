@@ -5,8 +5,11 @@ public class Book {
     private double timeSpent;
     private int picId;
 
+    public Book() {
+    }
+
     public Book(String title, String author, String genre, String year,
-                 String isbn,String publisher,String id) {
+                String isbn, String publisher, String id) {
         this.title = title;
         this.author = author;
         this.genre = genre;

@@ -1,12 +1,29 @@
 package com.example.binder.Entities;
 
-public class User {
-    private String name,age;
+import java.util.ArrayList;
+import java.util.Date;
 
-    public User(String name, String age) {
-        this.name = name;
-        this.age = age;
+public class User {
+    private String email;
+    private String name;
+    private String bio;
+    private Date dob;
+    private ArrayList<String> preferences;
+    private String gender;
+    private ArrayList<Integer> bookIds;
+
+    public User() {
     }
+
+    public User(String email, String name, String bio, Date dob, ArrayList<String> preferences, String gender) {
+        this.email = email;
+        this.name = name;
+        this.bio = bio;
+        this.dob = dob;
+        this.preferences = preferences;
+        this.gender = gender;
+    }
+
 
     public String getName() {
         return name;
@@ -16,11 +33,51 @@ public class User {
         this.name = name;
     }
 
-    public String getAge() {
-        return age;
+    public String getBio() {
+        return bio;
     }
 
-    public void setAge(String age) {
-        this.age = age;
+    public void setBio(String bio) {
+        this.bio = bio;
+    }
+
+    public Date getDob() {
+        return dob;
+    }
+
+    public void setDob(Date dob) {
+        this.dob = dob;
+    }
+
+    public ArrayList<String> getPreferences() {
+        return preferences;
+    }
+
+    public void setPreferences(ArrayList<String> preferences) {
+        this.preferences = preferences;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public ArrayList<Integer> getBookIds() {
+        return bookIds;
+    }
+
+    public void setBookIds(ArrayList<Integer> bookIds) {
+        this.bookIds = bookIds;
     }
 }

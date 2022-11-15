@@ -40,7 +40,7 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
     public void onBindViewHolder(@NonNull MatchesAdapter.ViewHolder holder, int position) {
         User user = userList.get(position);
         holder.uName.setText(user.getName());
-        holder.uAge.setText(user.getAge());
+        holder.uAge.setText("24");
 
         holder.uImage.setImageResource(R.drawable.book_cover_2);
     }

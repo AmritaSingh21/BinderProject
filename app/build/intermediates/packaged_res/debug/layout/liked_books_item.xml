@@ -5,7 +5,7 @@
     android:layout_marginLeft="6dp"
     android:layout_marginTop="6dp"
     android:layout_marginRight="6dp"
-    android:background="@drawable/border_btn_white"
+    android:background="@drawable/recycler_background"
     android:elevation="5dp"
     android:orientation="vertical"
     android:padding="12dp">
