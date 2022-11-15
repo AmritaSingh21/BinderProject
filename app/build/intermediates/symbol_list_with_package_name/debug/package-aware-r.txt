@@ -3185,6 +3185,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id signIn
 id sin
 id skipCollapsed
 id skipped

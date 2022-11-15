@@ -44,9 +44,9 @@ public class MyProfile extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user == null) {
-//                    startActivity(new Intent(MyProfile.this, Welcome.class));
-                    Log.i("testRes","not logged in");
-//                    finish();
+                    startActivity(new Intent(MyProfile.this, Welcome.class));
+                    //Log.i("testRes","not logged in");
+                    finish();
                 } else {
                     // TODO fetch user from db and display info
                 }

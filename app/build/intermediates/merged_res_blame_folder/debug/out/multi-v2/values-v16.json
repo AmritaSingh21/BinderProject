@@ -4,7 +4,7 @@
             "outputFile": "com.example.binder.app-mergeDebugResources-33:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\10e0919222f9e94c80fe3d248a16b059\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Amrita Singh\\.gradle\\caches\\transforms-3\\95858cfcc7dd6d0ee59b1ab628998b3e\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\transforms-3\\7587ab50b737894555b8d05c94504219\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Amrita Singh\\.gradle\\caches\\transforms-3\\eadf7027bc6cb580b035c79a4f821412\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

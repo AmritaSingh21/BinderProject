@@ -35,16 +35,16 @@
     <string name="backBtn">Back button</string>
     <string name="binder">Binder</string>
     <string name="dateLiked">Date Liked</string>
-    <string name="default_web_client_id" translatable="false">876998365286-au2g7ov8ivmvc3rdu5jtkh7ejsfgslro.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">713539507810-pkbgauck8fh984okjg7ndbj7f1eh9q1o.apps.googleusercontent.com</string>
     <string name="editBio">Enter Bio</string>
     <string name="editEmail">Enter Email</string>
     <string name="editName">Enter Name</string>
     <string name="emailHint">Enter email</string>
-    <string name="gcm_defaultSenderId" translatable="false">876998365286</string>
-    <string name="google_api_key" translatable="false">AIzaSyCSD2RRKzy4MxVIjciu5SPUnTItiJcX8nk</string>
-    <string name="google_app_id" translatable="false">1:876998365286:android:2c3f6d98b87ed2a7be9da7</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCSD2RRKzy4MxVIjciu5SPUnTItiJcX8nk</string>
-    <string name="google_storage_bucket" translatable="false">binder-f527f.appspot.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">713539507810</string>
+    <string name="google_api_key" translatable="false">AIzaSyBA6N8Q3bPZFJAocs20Qsa6FaX55C2PUNQ</string>
+    <string name="google_app_id" translatable="false">1:713539507810:android:8c6b80980d015d4af7e33b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBA6N8Q3bPZFJAocs20Qsa6FaX55C2PUNQ</string>
+    <string name="google_storage_bucket" translatable="false">binderapp-c2a0d.appspot.com</string>
     <string name="imgBookCover">book_cover</string>
     <string name="labelAboutme">About Me:</string>
     <string name="labelBio">Bio:</string>
@@ -57,7 +57,7 @@
     <string name="labelUserId">User id</string>
     <string name="labelUserPw">Password:</string>
     <string name="passHint">Enter password</string>
-    <string name="project_id" translatable="false">binder-f527f</string>
+    <string name="project_id" translatable="false">binderapp-c2a0d</string>
     <string name="submit">submit</string>
     <string name="txtEditAccountPage">Edit Profile</string>
     <string name="txtLikedBooksPage">Liked Books</string>

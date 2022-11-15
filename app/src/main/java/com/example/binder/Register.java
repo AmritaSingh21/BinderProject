@@ -109,8 +109,10 @@ public class Register extends AppCompatActivity {
                                 if (!task.isSuccessful()) {
                                     Log.d(TAG, "Auth Failed." + task.getException());
                                 } else {
+                                    firebaseDatabase = firebaseInstance.getReference("users");
+                                    createUser();
                                     startActivity(new Intent(Register.this,
-                                            MyProfile.class));
+                                            BookSwipe2.class));
                                     Toast.makeText(getApplicationContext(),
                                             "Successfully registered", Toast.LENGTH_SHORT).show();
                                     finish();
