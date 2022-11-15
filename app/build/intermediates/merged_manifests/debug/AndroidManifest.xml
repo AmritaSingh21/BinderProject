@@ -28,6 +28,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Binder" >
         <activity
+            android:name="com.example.binder.EditProfile"
+            android:exported="false" />
+        <activity
             android:name="com.example.binder.MyProfile"
             android:exported="false" />
         <activity

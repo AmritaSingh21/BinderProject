@@ -2594,7 +2594,6 @@ drawable background
 drawable book
 drawable book2
 drawable book_cover_2
-drawable border_btn_white
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2633,6 +2632,8 @@ drawable googleg_standard_color_18
 drawable heart
 drawable ic_arrow_left
 drawable ic_baseline_arrow_forward_24
+drawable ic_baseline_edit_24
+drawable ic_baseline_exit_to_app_24
 drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_book_24
@@ -2721,6 +2722,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable prof_pic
+drawable recycler_background
 drawable rounded_edittext
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -2843,7 +2846,8 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
 id btnCreate
-id btnMessageIcon
+id btnEditProf
+id btnEditSubmit
 id btnSignIn
 id btnSignUp
 id buttonPanel
@@ -2924,7 +2928,11 @@ id east
 id editBio
 id editEmail
 id editName
-id editProfile
+id editUserAddress
+id editUserAge
+id editUserDob
+id editUserName
+id editUserPassword
 id editUserPw
 id edit_query
 id elastic
@@ -2936,7 +2944,6 @@ id enterAlwaysCollapsed
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab2
 id fab3
 id fade
 id fantasy
@@ -2999,6 +3006,11 @@ id jumpToEnd
 id jumpToStart
 id labelBio
 id labelDOB
+id labelEditAddress
+id labelEditDob
+id labelEditName
+id labelEditPassword
+id labelEditage
 id labelEmail
 id labelGender
 id labelGenres
@@ -3020,7 +3032,7 @@ id line3
 id linear
 id listMode
 id list_item
-id logout
+id logOut
 id male
 id marquee
 id masked
@@ -3173,7 +3185,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id signIn
 id sin
 id skipCollapsed
 id skipped
@@ -3264,7 +3275,9 @@ id txtBio
 id txtDescription
 id txtGeneres
 id txtName
+id txtToolbarTitile
 id txtToolbarTitle
+id txtUserInfo
 id txtYear
 id uAge
 id uImage
@@ -3418,6 +3431,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_book_swipe
 layout activity_book_swipe2
+layout activity_edit_profile
 layout activity_liked_books
 layout activity_main
 layout activity_matches
@@ -3602,6 +3616,7 @@ string item_view_role_description
 string labelAboutme
 string labelBio
 string labelDOB
+string labelEditPassword
 string labelEmail
 string labelGender
 string labelGenres
@@ -3705,8 +3720,10 @@ string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
 string submit
+string txtEditAccountPage
 string txtLikedBooksPage
 string txtMatchedPage
+string txtProfilePage
 string welcome
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
