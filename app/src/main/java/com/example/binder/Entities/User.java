@@ -7,7 +7,7 @@ public class User {
     private String email;
     private String name;
     private String bio;
-    private Date dob;
+    private String dob;
     private ArrayList<String> preferences;
     private String gender;
     private ArrayList<Integer> bookIds;
@@ -15,7 +15,7 @@ public class User {
     public User() {
     }
 
-    public User(String email, String name, String bio, Date dob, ArrayList<String> preferences, String gender) {
+    public User(String email, String name, String bio, String dob, ArrayList<String> preferences, String gender) {
         this.email = email;
         this.name = name;
         this.bio = bio;
@@ -41,11 +41,11 @@ public class User {
         this.bio = bio;
     }
 
-    public Date getDob() {
+    public String getDob() {
         return dob;
     }
 
-    public void setDob(Date dob) {
+    public void setDob(String dob) {
         this.dob = dob;
     }
 

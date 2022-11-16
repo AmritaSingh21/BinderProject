@@ -2,14 +2,14 @@
     <string name="app_name">Binder</string>
     <string name="labelUserId">User id</string>
     <string name="EditUserId">User ID</string>
-    <string name="labelName">Name:</string>
+    <string name="labelName">Name<font color='#FF0000'>*</font>:</string>
     <string name="editName">Enter Name</string>
-    <string name="labelUserPw">Password:</string>
+    <string name="labelUserPw">Password<font color='#FF0000'>*</font>:</string>
     <string name="EditUserPw">Enter Password</string>
-    <string name="labelEmail">Email:</string>
+    <string name="labelEmail">Email<font color='#FF0000'>*</font>:</string>
     <string name="editEmail">Enter Email</string>
-    <string name="labelDOB">Date of Birth:</string>
-    <string name="labelGender">Gender</string>
+    <string name="labelDOB">Date of Birth<font color='#FF0000'>*</font>:</string>
+    <string name="labelGender">Gender<font color='#FF0000'>*</font></string>
     <string name="labelBio">Bio:</string>
     <string name="editBio">Enter Bio</string>
     <string name="labelGenres">Preferred Genres:</string>

@@ -40,6 +40,7 @@
     <string name="editEmail">Enter Email</string>
     <string name="editName">Enter Name</string>
     <string name="emailHint">Enter email</string>
+    <string name="firebase_database_url" translatable="false">https://binderapp-c2a0d-default-rtdb.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">713539507810</string>
     <string name="google_api_key" translatable="false">AIzaSyBA6N8Q3bPZFJAocs20Qsa6FaX55C2PUNQ</string>
     <string name="google_app_id" translatable="false">1:713539507810:android:8c6b80980d015d4af7e33b</string>
@@ -48,14 +49,14 @@
     <string name="imgBookCover">book_cover</string>
     <string name="labelAboutme">About Me:</string>
     <string name="labelBio">Bio:</string>
-    <string name="labelDOB">Date of Birth:</string>
+    <string name="labelDOB">Date of Birth<font color="#FF0000">*</font>:</string>
     <string name="labelEditPassword">Password</string>
-    <string name="labelEmail">Email:</string>
-    <string name="labelGender">Gender</string>
+    <string name="labelEmail">Email<font color="#FF0000">*</font>:</string>
+    <string name="labelGender">Gender<font color="#FF0000">*</font></string>
     <string name="labelGenres">Preferred Genres:</string>
-    <string name="labelName">Name:</string>
+    <string name="labelName">Name<font color="#FF0000">*</font>:</string>
     <string name="labelUserId">User id</string>
-    <string name="labelUserPw">Password:</string>
+    <string name="labelUserPw">Password<font color="#FF0000">*</font>:</string>
     <string name="passHint">Enter password</string>
     <string name="project_id" translatable="false">binderapp-c2a0d</string>
     <string name="submit">submit</string>

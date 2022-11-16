@@ -108,6 +108,7 @@ id mystery
 id nonFiction
 id others
 id poetry
+id radioGroup
 id recycler
 id romance
 id scienceFiction
@@ -165,6 +166,7 @@ string editBio
 string editEmail
 string editName
 string emailHint
+string firebase_database_url
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id

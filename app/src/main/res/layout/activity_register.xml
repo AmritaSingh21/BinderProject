@@ -148,6 +148,7 @@
                 android:textStyle="bold" />
 
             <RadioGroup
+                android:id="@+id/radioGroup"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
@@ -160,7 +161,8 @@
                     android:layout_marginRight="20sp"
                     android:text="Male"
                     android:textColor="@color/black"
-                    android:textSize="18sp" />
+                    android:textSize="18sp"
+                    android:checked="true"/>
 
                 <RadioButton
                     android:id="@+id/female"

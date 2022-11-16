@@ -15,6 +15,7 @@ import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.example.binder.Entities.User;
@@ -26,9 +27,13 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
 public class Register extends AppCompatActivity {
 
@@ -47,7 +52,7 @@ public class Register extends AppCompatActivity {
 
     private static final String TAG = "REGISTER";
 
-    private DatabaseReference firebaseDatabase;
+    private DatabaseReference dbRef;
     private FirebaseDatabase firebaseInstance;
 
     @Override
@@ -109,7 +114,7 @@ public class Register extends AppCompatActivity {
                                 if (!task.isSuccessful()) {
                                     Log.d(TAG, "Auth Failed." + task.getException());
                                 } else {
-                                    firebaseDatabase = firebaseInstance.getReference("users");
+                                    dbRef = firebaseInstance.getReference("users");
                                     createUser();
                                     startActivity(new Intent(Register.this,
                                             BookSwipe2.class));
@@ -135,19 +140,38 @@ public class Register extends AppCompatActivity {
         if (TextUtils.isEmpty(signupInputPassword.getText())) {
             signupInputPassword.setError(" Please Enter Password! ");
             flag = false;
+        } else if (signupInputPassword.getText().toString().length() < 6) {
+            signupInputPassword.setError(" Password must be at least 6 characters long. ");
+            flag = false;
         }
         if (TextUtils.isEmpty(name.getText())) {
             name.setError(" Please Enter your Name! ");
             flag = false;
         }
+        if(!isDateValid()){
+            dateButton.setError(" Please enter valid date. ");
+            flag = false;
+        }
+
         return flag;
+    }
+
+    private boolean isDateValid() {
+        Date dob = getDateFromString(dateButton.getText().toString());
+        Date now = new Date();
+        long timeBetween = now.getTime() - dob.getTime();
+        double yearsBetween = timeBetween / 3.15576e+10;
+        int age = (int) Math.floor(yearsBetween);
+        if(age < 5){
+            return false;
+        }
+        return true;
     }
 
     private void createUser() {
         Log.d(TAG, "going to create user.");
         if (TextUtils.isEmpty(userId)) {
-            userId = firebaseDatabase.push().getKey();
-            Log.d(TAG, "UserKey: " + userId);
+            //userId = dbRef.push().getKey();
         }
         ArrayList pref = new ArrayList();
         if (fantasy.isChecked()) {
@@ -177,25 +201,32 @@ public class Register extends AppCompatActivity {
         if (nonFic.isChecked()) {
             pref.add(nonFic.getText().toString());
         }
-        Date dob = getDateFromString(dateButton.getText().toString());
         String gender = "";
-        if (female.isSelected()) {
+        if (female.isChecked()) {
             gender = female.getText().toString();
-        } else if (male.isSelected()) {
+        } else if (male.isChecked()) {
             gender = male.getText().toString();
-        } else {
+        } else if (others.isChecked()) {
             gender = others.getText().toString();
         }
-        User user = new User(signupInputEmail.toString(),
-                name.toString(), bio.toString(), dob, pref, gender);
-        firebaseDatabase.child(userId).setValue(user);
-        //addUserChangeListener();
+        User user = new User(signupInputEmail.getText().toString(),
+                name.getText().toString(), bio.getText().toString(), dateButton.getText().toString(), pref, gender);
+        dbRef.child(auth.getUid()).setValue(user);
     }
 
 
+    /*
+    method to get date of birth from button text
+     */
     private Date getDateFromString(String text) {
-        // TODO
-        return new Date();
+        DateFormat formatter = new SimpleDateFormat("MMM dd yyyy", Locale.ENGLISH);
+        Date date = null;
+        try {
+            date = formatter.parse(text);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
     }
 
     private String getTodaysDate() {

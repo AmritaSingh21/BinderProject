@@ -1,242 +1,246 @@
 [
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_heart.png.flat",
-        "source": "com.example.binder.app-main-37:/drawable/heart.png"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_arrow_forward_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_arrow_forward_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\menu\\menu.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_welcome.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_welcome.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_sign_in.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_sign_in.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_my_profile.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_my_profile.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_search_books.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_search_books.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_book_swipe.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_book_swipe.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_person_outline_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_person_outline_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-v24_cover00.png.flat",
-        "source": "com.example.binder.app-main-37:/drawable-v24/cover00.png"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_icon.png.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\icon.png"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-v24_light_background.png.flat",
-        "source": "com.example.binder.app-main-37:/drawable-v24/light_background.png"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_app_bg2.jpg.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\app_bg2.jpg"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_profile_image_list.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\profile_image_list.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_one_swipe_item.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/one_swipe_item.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_app_bg.jpg.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\app_bg.jpg"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_background.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\background.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_person_outline_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_person_outline_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_liked_books_item.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/liked_books_item.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_book_swipe2.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_book_swipe2.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_icon.png.flat",
-        "source": "com.example.binder.app-main-37:/drawable/icon.png"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-v24_recycler_background.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-v24\\recycler_background.xml"
     },
     {
         "merged": "com.example.binder.app-merged_res-35:/layout_activity_register.xml.flat",
         "source": "com.example.binder.app-main-37:/layout/activity_register.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_liked_books.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_liked_books.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_register.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_prof_pic.jpg.flat",
-        "source": "com.example.binder.app-main-37:/drawable/prof_pic.jpg"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/font_dancing_script_bold.xml.flat",
-        "source": "com.example.binder.app-main-37:/font/dancing_script_bold.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_prof_pic.jpg.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\prof_pic.jpg"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_home_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_home_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_arrow_forward_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_arrow_forward_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-v24_book_cover_2.png.flat",
-        "source": "com.example.binder.app-main-37:/drawable-v24/book_cover_2.png"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\font_dancing_script_bold.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\font\\dancing_script_bold.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_matches.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_matches.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_edit_profile.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_edit_profile.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_user_profile.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_user_profile.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/font_poppins.xml.flat",
-        "source": "com.example.binder.app-main-37:/font/poppins.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-pngs-30:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_app_bg.jpg.flat",
-        "source": "com.example.binder.app-main-37:/drawable/app_bg.jpg"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_book_swipe2.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_book_swipe2.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_book2.jpg.flat",
-        "source": "com.example.binder.app-main-37:/drawable/book2.jpg"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_edit_profile.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_edit_profile.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-v24_ic_person.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable-v24/ic_person.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\menu_bottom_menu.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_menu_book_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_menu_book_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_search_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_search_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-v24_ic_message_icon.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable-v24/ic_message_icon.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_welcome.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_welcome.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_profile_image_list.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/profile_image_list.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_matches_list_item.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\matches_list_item.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_matches_list_item.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/matches_list_item.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_edit_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_edit_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/menu_menu.xml.flat",
-        "source": "com.example.binder.app-main-37:/menu/menu.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_liked_books_item.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\liked_books_item.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_app_bg2.jpg.flat",
-        "source": "com.example.binder.app-main-37:/drawable/app_bg2.jpg"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_one_swipe_item.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\one_swipe_item.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-v24_cover00.png.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-v24\\cover00.png"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_matches.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_matches.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-v24_ic_person.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-v24\\ic_person.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/menu_bottom_menu.xml.flat",
-        "source": "com.example.binder.app-main-37:/menu/bottom_menu.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_liked_books.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_liked_books.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_lock_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_lock_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_search_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_search_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_exit_to_app_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_exit_to_app_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-v24_light_background.png.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-v24\\light_background.png"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_user_profile.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_user_profile.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\font_poppins.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\font\\poppins.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_edit_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_edit_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_baseline_lock_24.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_baseline_lock_24.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-v24_book_cover_2.png.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-v24\\book_cover_2.png"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_book2.jpg.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\book2.jpg"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_sign_in.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_sign_in.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-v24_ic_message_icon.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-v24\\ic_message_icon.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_ic_arrow_left.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/ic_arrow_left.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_my_profile.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_my_profile.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_rounded_edittext.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/rounded_edittext.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/xml_backup_rules.xml.flat",
-        "source": "com.example.binder.app-main-37:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_home_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_home_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.binder.app-pngs-30:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_book.jpg.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\book.jpg"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable-v24_recycler_background.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable-v24/recycler_background.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_book.jpg.flat",
-        "source": "com.example.binder.app-main-37:/drawable/book.jpg"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_exit_to_app_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_exit_to_app_24.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.binder.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_arrow_left.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_arrow_left.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_search_books.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_search_books.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_rounded_edittext.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\rounded_edittext.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/drawable_background.xml.flat",
-        "source": "com.example.binder.app-main-37:/drawable/background.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_book_swipe.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_book_swipe.xml"
     },
     {
-        "merged": "com.example.binder.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.binder.app-main-37:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_heart.png.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\heart.png"
+    },
+    {
+        "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable_ic_baseline_menu_book_24.xml.flat",
+        "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable\\ic_baseline_menu_book_24.xml"
     }
 ]
