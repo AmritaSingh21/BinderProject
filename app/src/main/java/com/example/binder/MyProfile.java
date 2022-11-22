@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -158,5 +159,12 @@ public class MyProfile extends AppCompatActivity {
     protected void onStop() {
         super.onStop();
         auth.removeAuthStateListener(authListener);
+    }
+
+    private void test(){
+//        String name = "book";
+//        int id = MyProfile.this.getResources().getIdentifier(name, "drawable",
+//                MyProfile.this.getPackageName());
+//        imageView.setImageResource(id);
     }
 }

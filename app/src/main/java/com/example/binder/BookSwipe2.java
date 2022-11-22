@@ -47,19 +47,20 @@ public class BookSwipe2 extends AppCompatActivity {
             @Override
             public void cardSwipedLeft(int position) {
                 // on card swipe left we are displaying a toast message.
-                Toast.makeText(BookSwipe2.this, "Card Swiped Left", Toast.LENGTH_SHORT).show();
+                Toast.makeText(BookSwipe2.this, "Book Swiped Left", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void cardSwipedRight(int position) {
                 // on card swiped to right we are displaying a toast message.
-                Toast.makeText(BookSwipe2.this, "Card Swiped Right", Toast.LENGTH_SHORT).show();
+                Toast.makeText(BookSwipe2.this, "Book Swiped Right", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void cardsDepleted() {
                 // this method is called when no card is present
-                Toast.makeText(BookSwipe2.this, "No more courses present", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(BookSwipe2.this, "No more books present", Toast.LENGTH_SHORT).show();
+                cardStack.setAdapter(adapter);
             }
 
             @Override

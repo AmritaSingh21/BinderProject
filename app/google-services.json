@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "713539507810",
-    "firebase_url": "https://binderapp-c2a0d-default-rtdb.firebaseio.com",
-    "project_id": "binderapp-c2a0d",
-    "storage_bucket": "binderapp-c2a0d.appspot.com"
+    "project_number": "78110999124",
+    "project_id": "binder-3a2c8",
+    "storage_bucket": "binder-3a2c8.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:713539507810:android:8c6b80980d015d4af7e33b",
+        "mobilesdk_app_id": "1:78110999124:android:36b0283ff9c048ea9c23c1",
         "android_client_info": {
           "package_name": "com.example.binder"
         }
       },
       "oauth_client": [
         {
-          "client_id": "713539507810-pkbgauck8fh984okjg7ndbj7f1eh9q1o.apps.googleusercontent.com",
+          "client_id": "78110999124-urf5e6eu40rsdn1j26sm0s5u1lh983op.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBA6N8Q3bPZFJAocs20Qsa6FaX55C2PUNQ"
+          "current_key": "AIzaSyDdYsfTmJEobDjccmdHOP3OzPFZrSujd58"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "713539507810-pkbgauck8fh984okjg7ndbj7f1eh9q1o.apps.googleusercontent.com",
+              "client_id": "78110999124-urf5e6eu40rsdn1j26sm0s5u1lh983op.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
