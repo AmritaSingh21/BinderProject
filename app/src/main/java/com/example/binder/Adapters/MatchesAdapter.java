@@ -1,6 +1,8 @@
 package com.example.binder.Adapters;
 
 import android.content.Context;
+import android.content.Intent;
+import android.text.style.IconMarginSpan;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.binder.Entities.User;
+import com.example.binder.MessageActivity;
 import com.example.binder.R;
 
 import java.util.List;
@@ -19,7 +22,6 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
 
     List<User> userList;
     private LayoutInflater inflater;
-    private ItemClickListener itemClickListener;
     private Context context;
 
     public MatchesAdapter(Context context, List<User> userList){
@@ -43,6 +45,15 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
         holder.uAge.setText("24");
 
         holder.uImage.setImageResource(R.drawable.book_cover_2);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, MessageActivity.class);
+                intent.putExtra("userid",user.getId());
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -50,12 +61,8 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
         return userList.size();
     }
 
-    public void setClickListener(ItemClickListener itemClickListener){
-        this.itemClickListener = itemClickListener;
-    }
 
-    public class ViewHolder extends RecyclerView.ViewHolder implements
-            View.OnClickListener{
+    public class ViewHolder extends RecyclerView.ViewHolder {
         TextView uName,uAge;
         ImageView uImage;
 
@@ -65,19 +72,7 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
             uName = itemView.findViewById(R.id.uName);
             uAge =  itemView.findViewById(R.id.uAge);
             uImage = itemView.findViewById(R.id.uImage);
-            itemView.setOnClickListener(this);
-        }
-
-        @Override
-        public void onClick(View view) {
-            if(itemClickListener!=null)
-                itemClickListener.onItemClick(view,getAdapterPosition());
         }
     }
-
-    public interface ItemClickListener{
-        void onItemClick(View view,int position);
-    }
-
 
 }

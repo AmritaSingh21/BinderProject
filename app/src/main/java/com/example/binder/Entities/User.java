@@ -5,6 +5,7 @@ import java.util.Date;
 
 public class User {
     private String email;
+    private String id;
     private String name;
     private String bio;
     private String dob;
@@ -15,15 +16,23 @@ public class User {
     public User() {
     }
 
-    public User(String email, String name, String bio, String dob, ArrayList<String> preferences, String gender) {
+    public User(String email, String name, String bio, String dob, ArrayList<String> preferences, String gender,String id) {
         this.email = email;
         this.name = name;
         this.bio = bio;
         this.dob = dob;
         this.preferences = preferences;
         this.gender = gender;
+        this.id = id;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;

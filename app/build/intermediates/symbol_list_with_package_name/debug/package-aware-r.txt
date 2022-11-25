@@ -2630,6 +2630,7 @@ drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable heart
+drawable ic_action_name
 drawable ic_arrow_left
 drawable ic_baseline_arrow_forward_24
 drawable ic_baseline_edit_24
@@ -2672,6 +2673,8 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable msg_background_left
+drawable msg_background_right
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -2821,6 +2824,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id bar
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -2850,6 +2854,7 @@ id btnEditProf
 id btnEditSubmit
 id btnSignIn
 id btnSignUp
+id btn_send
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2989,6 +2994,7 @@ id ignore
 id ignoreRequest
 id image
 id imageView4
+id img
 id imgView
 id img_message_nav
 id immediateStop
@@ -3072,6 +3078,8 @@ id month_navigation_next
 id month_navigation_previous
 id month_title
 id motion_base
+id msgInp
+id msg_text
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
 id mtrl_calendar_days_of_week
@@ -3146,6 +3154,7 @@ id radioGroup
 id ratio
 id rectangles
 id recycler
+id recycler_view
 id reverseSawtooth
 id right
 id rightToLeft
@@ -3437,6 +3446,7 @@ layout activity_edit_profile
 layout activity_liked_books
 layout activity_main
 layout activity_matches
+layout activity_message
 layout activity_my_profile
 layout activity_register
 layout activity_search_books
@@ -3481,6 +3491,8 @@ layout material_time_input
 layout material_timepicker
 layout material_timepicker_dialog
 layout material_timepicker_textinput_display
+layout msg_item_left
+layout msg_item_right
 layout mtrl_alert_dialog
 layout mtrl_alert_dialog_actions
 layout mtrl_alert_dialog_title

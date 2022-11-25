@@ -35,17 +35,17 @@
     <string name="backBtn">Back button</string>
     <string name="binder">Binder</string>
     <string name="dateLiked">Date Liked</string>
-    <string name="default_web_client_id" translatable="false">713539507810-pkbgauck8fh984okjg7ndbj7f1eh9q1o.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">78110999124-urf5e6eu40rsdn1j26sm0s5u1lh983op.apps.googleusercontent.com</string>
     <string name="editBio">Enter Bio</string>
     <string name="editEmail">Enter Email</string>
     <string name="editName">Enter Name</string>
     <string name="emailHint">Enter email</string>
-    <string name="firebase_database_url" translatable="false">https://binderapp-c2a0d-default-rtdb.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">713539507810</string>
-    <string name="google_api_key" translatable="false">AIzaSyBA6N8Q3bPZFJAocs20Qsa6FaX55C2PUNQ</string>
-    <string name="google_app_id" translatable="false">1:713539507810:android:8c6b80980d015d4af7e33b</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBA6N8Q3bPZFJAocs20Qsa6FaX55C2PUNQ</string>
-    <string name="google_storage_bucket" translatable="false">binderapp-c2a0d.appspot.com</string>
+    <string name="firebase_database_url" translatable="false">https://binder-3a2c8-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">78110999124</string>
+    <string name="google_api_key" translatable="false">AIzaSyDdYsfTmJEobDjccmdHOP3OzPFZrSujd58</string>
+    <string name="google_app_id" translatable="false">1:78110999124:android:36b0283ff9c048ea9c23c1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDdYsfTmJEobDjccmdHOP3OzPFZrSujd58</string>
+    <string name="google_storage_bucket" translatable="false">binder-3a2c8.appspot.com</string>
     <string name="imgBookCover">book_cover</string>
     <string name="labelAboutme">About Me:</string>
     <string name="labelBio">Bio:</string>
@@ -58,7 +58,7 @@
     <string name="labelUserId">User id</string>
     <string name="labelUserPw">Password<font color="#FF0000">*</font>:</string>
     <string name="passHint">Enter password</string>
-    <string name="project_id" translatable="false">binderapp-c2a0d</string>
+    <string name="project_id" translatable="false">binder-3a2c8</string>
     <string name="submit">submit</string>
     <string name="txtEditAccountPage">Edit Profile</string>
     <string name="txtLikedBooksPage">Liked Books</string>

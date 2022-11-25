@@ -5,7 +5,6 @@
       <map>
         <entry key="..\:/Users/Amrita Singh/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_book_swipe.xml" value="0.2171875" />
         <entry key="..\:/Users/Amrita Singh/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_book_swipe2.xml" value="0.2171875" />
-        <entry key="..\:/Users/Amrita Singh/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_edit_profile.xml" value="0.2171875" />
         <entry key="..\:/Users/Amrita Singh/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_liked_books.xml" value="0.2171875" />
         <entry key="..\:/Users/Amrita Singh/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_main.xml" value="0.2171875" />
         <entry key="..\:/Users/Amrita Singh/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_matches.xml" value="0.2171875" />
@@ -23,14 +22,18 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable-v24/border_btn_white.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable-v24/ic_message_icon.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable-v24/ic_person.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable-v24/round_edittext_gray.xml" value="0.134" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable/background.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable/ic_baseline_person_outline_24.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable/msg_background_left.xml" value="0.1775" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable/msg_background_right.xml" value="0.1775" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/drawable/myrect.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_book_swipe2.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_edit_profile.xml" value="0.264" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_liked_books.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_matches.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_message.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_my_profile.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_register.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_register2.xml" value="0.264" />
@@ -40,6 +43,9 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/activity_welcome.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/liked_books_item.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/matches_list_item.xml" value="0.2734375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/message_list_item.xml" value="0.2734375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/msg_item_left.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/msg_item_right.xml" value="0.2734375" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/one_swipe_item.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/layout/profile_image_list.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/BinderProject/app/src/main/res/menu/bottom_menu.xml" value="0.27447916666666666" />

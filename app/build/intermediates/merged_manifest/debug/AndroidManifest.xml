@@ -28,6 +28,12 @@
         android:testOnly="true"
         android:theme="@style/Theme.Binder" >
         <activity
+            android:name="com.example.binder.MessageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.binder.MessageUsers"
+            android:exported="false" />
+        <activity
             android:name="com.example.binder.EditProfile"
             android:exported="false" />
         <activity

@@ -210,7 +210,7 @@ public class Register extends AppCompatActivity {
             gender = others.getText().toString();
         }
         User user = new User(signupInputEmail.getText().toString(),
-                name.getText().toString(), bio.getText().toString(), dateButton.getText().toString(), pref, gender);
+                name.getText().toString(), bio.getText().toString(), dateButton.getText().toString(), pref, gender,auth.getUid());
         dbRef.child(auth.getUid()).setValue(user);
     }
 
