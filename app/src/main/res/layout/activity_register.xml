@@ -337,6 +337,15 @@
 
     </ScrollView>
 
+    <TextView
+        android:id="@+id/errorMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textColor="#FF0000"
+        app:layout_constraintBottom_toTopOf="@id/btnSignUp"/>
+
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="281dp"
@@ -351,4 +360,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2"
         app:layout_constraintVertical_bias="1.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

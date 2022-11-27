@@ -16,6 +16,7 @@ import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.binder.Entities.User;
@@ -24,6 +25,7 @@ import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -46,6 +48,7 @@ public class Register extends AppCompatActivity {
     private RadioButton male, female, others;
     private CheckBox fiction, mystery, fantasy, biography, romance, poetry, scienceFic, adventure,
             nonFic;
+    private TextView errorMsg;
 
     private FirebaseAuth auth;
     private String userId;
@@ -62,6 +65,8 @@ public class Register extends AppCompatActivity {
         initDatePicker();
         dateButton = findViewById(R.id.datePickerButton);
         dateButton.setText(getTodaysDate());
+
+        errorMsg = findViewById(R.id.errorMsg);
 
         name = findViewById(R.id.editName);
         bio = findViewById(R.id.editBio);
@@ -113,7 +118,11 @@ public class Register extends AppCompatActivity {
                                 Log.d(TAG, "createUserWithEmail:onComplete:" + task.isSuccessful());
                                 if (!task.isSuccessful()) {
                                     Log.d(TAG, "Auth Failed." + task.getException());
+                                    if(task.getException() instanceof FirebaseAuthUserCollisionException){
+                                        errorMsg.setText("Email already registered.");
+                                    }
                                 } else {
+                                    errorMsg.setText("");
                                     dbRef = firebaseInstance.getReference("users");
                                     createUser();
                                     startActivity(new Intent(Register.this,

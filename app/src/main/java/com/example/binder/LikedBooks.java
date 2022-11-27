@@ -130,6 +130,10 @@ public class LikedBooks extends AppCompatActivity implements BooksAdapter.ItemCl
 
     @Override
     public void onItemClick(View view, int position) {
-        view.getContext().startActivity(new Intent(LikedBooks.this, Matches.class));
+        Bundle bundle = new Bundle();
+        bundle.putString("bookID", bList.get(position).getId());
+        Intent intent = new Intent(LikedBooks.this, Matches.class);
+        intent.putExtras(bundle);
+        view.getContext().startActivity(intent);
     }
 }

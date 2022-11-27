@@ -10,7 +10,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.example.binder.Adapters.BooksAdapter;
 import com.example.binder.Adapters.MatchesAdapter;
+import com.example.binder.Entities.Book;
 import com.example.binder.Entities.User;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
@@ -30,15 +32,26 @@ public class Matches extends AppCompatActivity {
     RecyclerView recyclerView;
     RecyclerView.LayoutManager layoutManager;
     MatchesAdapter matchesAdapter;
+    String bookId;
+
+    private FirebaseAuth auth;
+    private DatabaseReference dbRef;
+    private FirebaseDatabase firebaseInstance;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matches);
-        Log.i("USER ID",this.toString());
-        //users.add(new User("Prabh","20"));
-        getUsers();
-//        getUsersFromBook();
+        Log.i("USER ID", this.toString());
+
+        //get book id from bundle
+        bookId = getIntent().getExtras().get("bookID").toString();
+
+        auth = FirebaseAuth.getInstance();
+        firebaseInstance = FirebaseDatabase.getInstance();
+
+        //getUsers();
+        getUsersFromBook();
 
         recyclerView = findViewById(R.id.matchedPeopleList);
         layoutManager = new LinearLayoutManager(this);
@@ -48,16 +61,16 @@ public class Matches extends AppCompatActivity {
         BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
 
         bottom_menu.setSelectedItemId(R.id.menu_likedBooks);
-        bottom_menu.setOnItemSelectedListener(menuItem->{
-            switch (menuItem.getItemId()){
-                case(R.id.menu_searchBook):
-                    startActivity(new Intent(Matches.this,SearchBooks.class));
+        bottom_menu.setOnItemSelectedListener(menuItem -> {
+            switch (menuItem.getItemId()) {
+                case (R.id.menu_searchBook):
+                    startActivity(new Intent(Matches.this, SearchBooks.class));
                     break;
                 case (R.id.menu_home):
-                    startActivity(new Intent(Matches.this,BookSwipe2.class));
+                    startActivity(new Intent(Matches.this, BookSwipe2.class));
                     break;
                 case (R.id.menu_my_profile):
-                    startActivity(new Intent(Matches.this,MyProfile.class));
+                    startActivity(new Intent(Matches.this, MyProfile.class));
                     break;
                 default:
                     break;
@@ -66,26 +79,17 @@ public class Matches extends AppCompatActivity {
         });
     }
 
-    private void getUsers() {
-        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
-        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users");
-
-        reference.addValueEventListener(new ValueEventListener() {
+    private void getUsersFromBook() {
+        dbRef = firebaseInstance.getReference("books");
+        dbRef.child(bookId).addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                users.clear();
-                for(DataSnapshot snapshot1: snapshot.getChildren()){
-                    User user = snapshot1.getValue(User.class);
-                    Log.i("USER ID",user.getId()+"   "+firebaseUser.getUid());
-
-                    if(!user.getId().equals(firebaseUser.getUid())){
-                        users.add(user);
-                    }
-
+                Book book = snapshot.getValue(Book.class);
+                ArrayList<String> userIds = book.getUserIds();
+                if (userIds == null) {
+                    userIds = new ArrayList();
                 }
-                matchesAdapter = new MatchesAdapter(getApplicationContext(),users);
-                recyclerView.setAdapter(matchesAdapter);
-
+                fetchUserList(userIds);
             }
 
             @Override
@@ -94,4 +98,57 @@ public class Matches extends AppCompatActivity {
             }
         });
     }
+
+    private void fetchUserList(ArrayList<String> userIds) {
+        dbRef = firebaseInstance.getReference("users");
+        dbRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot snapshot) {
+                users.clear();
+                for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
+                    User user = dataSnapshot.getValue(User.class);
+                    if (userIds.contains(user.getId())
+                            && !user.getId().equalsIgnoreCase(auth.getCurrentUser().getUid())) {
+                        users.add(user);
+                    }
+                }
+                matchesAdapter = new MatchesAdapter(getApplicationContext(), users);
+                recyclerView.setAdapter(matchesAdapter);
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError error) {
+
+            }
+        });
+    }
+
+//    private void getUsers() {
+//        FirebaseUser firebaseUser = FirebaseAuth.getInstance().getCurrentUser();
+//        DatabaseReference reference = FirebaseDatabase.getInstance().getReference("users");
+//
+//        reference.addValueEventListener(new ValueEventListener() {
+//            @Override
+//            public void onDataChange(@NonNull DataSnapshot snapshot) {
+//                users.clear();
+//                for (DataSnapshot snapshot1 : snapshot.getChildren()) {
+//                    User user = snapshot1.getValue(User.class);
+//                    Log.i("USER ID", user.getId() + "   " + firebaseUser.getUid());
+//
+//                    if (!user.getId().equals(firebaseUser.getUid())) {
+//                        users.add(user);
+//                    }
+//
+//                }
+//                matchesAdapter = new MatchesAdapter(getApplicationContext(), users);
+//                recyclerView.setAdapter(matchesAdapter);
+//
+//            }
+//
+//            @Override
+//            public void onCancelled(@NonNull DatabaseError error) {
+//
+//            }
+//        });
+//    }
 }
