@@ -38,6 +38,7 @@ public class Matches extends AppCompatActivity {
         Log.i("USER ID",this.toString());
         //users.add(new User("Prabh","20"));
         getUsers();
+//        getUsersFromBook();
 
         recyclerView = findViewById(R.id.matchedPeopleList);
         layoutManager = new LinearLayoutManager(this);

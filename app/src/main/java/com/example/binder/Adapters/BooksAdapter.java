@@ -42,7 +42,7 @@ public class BooksAdapter extends RecyclerView.Adapter<BooksAdapter.ViewHolder> 
         holder.bookAuthor.setText(book.getAuthor());
         holder.bookGenre.setText(book.getGenre()+" | ");
         holder.bookYear.setText(book.getYear());
-        holder.bookImage.setImageResource(R.drawable.book_cover_2);
+        holder.bookImage.setImageResource(book.getPicId());
     }
 
     @Override
