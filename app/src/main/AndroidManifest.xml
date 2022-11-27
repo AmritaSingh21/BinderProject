@@ -32,9 +32,6 @@
             android:name=".UserProfile"
             android:exported="false" />
         <activity
-            android:name=".BookSwipe"
-            android:exported="false" />
-        <activity
             android:name=".SearchBooks"
             android:exported="false" />
         <activity

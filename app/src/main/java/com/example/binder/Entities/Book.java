@@ -28,6 +28,15 @@ public class Book {
         this.picId = picId;
     }
 
+    public Book(String title, String author, String genre, String year, String id, String description) {
+        this.title = title;
+        this.author = author;
+        this.genre = genre;
+        this.year = year;
+        this.id = id;
+        this.description = description;
+    }
+
     public Book(String title, String author, String isbn, double time){
         this.title = title;
         this.author = author;
