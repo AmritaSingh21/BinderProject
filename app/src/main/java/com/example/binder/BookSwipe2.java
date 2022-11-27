@@ -11,6 +11,9 @@ import android.widget.Toast;
 import com.daprlabs.cardstack.SwipeDeck;
 import com.example.binder.Adapters.SwipeAdapter;
 import com.example.binder.Entities.Book;
+import com.example.binder.Entities.User;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -26,6 +29,7 @@ public class BookSwipe2 extends AppCompatActivity {
 
     private SwipeDeck cardStack;
     private ArrayList<Book> books = new ArrayList<>();
+    String userId;
 
     private FirebaseAuth auth;
     private DatabaseReference dbRef;
@@ -39,29 +43,11 @@ public class BookSwipe2 extends AppCompatActivity {
         setContentView(R.layout.activity_book_swipe2);
 
         auth = FirebaseAuth.getInstance();
+        firebaseInstance = FirebaseDatabase.getInstance();
 
         // fetching books from firebase
         fetchBooks();
-        Log.d("testing2", String.valueOf(books.size()));
         cardStack = (SwipeDeck) findViewById(R.id.swipe_deck);
-
-        // on below line we are initializing our array list and swipe deck.
-//        books = new ArrayList<>();
-//
-//        books.add(new Book("Midnight Library", "Matt Haig", "Fic", "2019", "Andbwehgjfd", R.drawable.book));
-//        books.add(new Book("Circe", "Madeline Miller", "Greek Myth", "2019", "dsfhsdkjhkjsd", R.drawable.book2));
-//        books.add(new Book("Midnight Library", "Matt Haig", "Fic", "2019", "Andbwehgjfd", R.drawable.book));
-//        books.add(new Book("Circe", "Madeline Miller", "Greek Myth", "2019", "dsfhsdkjhkjsd", R.drawable.book2));
-//        books.add(new Book("Midnight Library", "Matt Haig", "Fic", "2019", "Andbwehgjfd", R.drawable.book));
-//        books.add(new Book("Circe", "Madeline Miller", "Greek Myth", "2019", "dsfhsdkjhkjsd", R.drawable.book2));
-//        books.add(new Book("Midnight Library", "Matt Haig", "Fic", "2019", "Andbwehgjfd", R.drawable.book));
-//        books.add(new Book("Circe", "Madeline Miller", "Greek Myth", "2019", "dsfhsdkjhkjsd", R.drawable.book2));
-
-        // on below line we are creating a variable for our adapter class and passing array list to it.
-//        final SwipeAdapter adapter = new SwipeAdapter(books, this);
-
-        // on below line we are setting adapter to our card stack.
-//        cardStack.setAdapter(adapter);
 
         // on below line we are setting event callback to our card stack.
         cardStack.setEventCallback(new SwipeDeck.SwipeEventCallback() {
@@ -75,7 +61,8 @@ public class BookSwipe2 extends AppCompatActivity {
             public void cardSwipedRight(int position) {
                 // on card swiped to right we are displaying a toast message.
                 Toast.makeText(BookSwipe2.this, "Book Liked!", Toast.LENGTH_SHORT).show();
-                addBookToLiked(books.get(position));
+                addUserToBook(books.get(position));
+
             }
 
             @Override
@@ -120,28 +107,75 @@ public class BookSwipe2 extends AppCompatActivity {
 
     }
 
-    private void addBookToLiked(Book book) {
+    private void addUserToBook(Book book) {
+        dbRef = firebaseInstance.getReference("books");
+        userId = auth.getCurrentUser().getUid();
+        dbRef.child(book.getId()).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                } else {
+                    boolean flag = true;
+                    Book dbBook = task.getResult().getValue(Book.class);
+                    ArrayList<String> userIds = dbBook.getUserIds();
+                    if (userIds == null) {
+                        userIds = new ArrayList<>();
+                    } else{
+                        for (String uId: userIds) {
+                            if(uId.equalsIgnoreCase(userId)){
+                                flag = false;
+                            }
+                        }
+                    }
+                    if(flag){
+                        userIds.add(userId);
+                        dbRef.child(book.getId()).child("userIds").setValue(userIds);
+                        addBookToUser(book);
+                    }
+                }
+            }
+        });
+    }
+
+    private void addBookToUser(Book book) {
+        dbRef = firebaseInstance.getReference("users");
+        userId = auth.getCurrentUser().getUid();
+        dbRef.child(userId).get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
+            @Override
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                } else {
+                    User user = task.getResult().getValue(User.class);
+                    ArrayList<String> bookIds = user.getBookIds();
+                    if (bookIds == null) {
+                        bookIds = new ArrayList<>();
+                    }
+                    bookIds.add(book.getId());
+                    dbRef.child(userId).child("bookIds").setValue(bookIds);
+                }
+            }
+        });
     }
 
     private void fetchBooks() {
-        firebaseInstance = FirebaseDatabase.getInstance();
         dbRef = firebaseInstance.getReference("books");
-        dbRef.addValueEventListener(new ValueEventListener() {
+
+        dbRef.get().addOnCompleteListener(new OnCompleteListener<DataSnapshot>() {
             @Override
-            public void onDataChange(@NonNull DataSnapshot snapshot) {
-                for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
-                    Book book = dataSnapshot.getValue(Book.class);
-                    books.add(book);
-                    Log.d("testing", book.getTitle());
+            public void onComplete(@NonNull Task<DataSnapshot> task) {
+                if (!task.isSuccessful()) {
+                    Log.e("firebase", "Error getting data", task.getException());
+                } else {
+                    for (DataSnapshot dataSnapshot : task.getResult().getChildren()) {
+                        Book book = dataSnapshot.getValue(Book.class);
+                        books.add(book);
+                    }
+                    addImageFromDrawableToList();
+                    adapter = new SwipeAdapter(books, BookSwipe2.this);
+                    cardStack.setAdapter(adapter);
                 }
-                addImageFromDrawableToList();
-                adapter = new SwipeAdapter(books, BookSwipe2.this);
-                cardStack.setAdapter(adapter);
-            }
-
-            @Override
-            public void onCancelled(@NonNull DatabaseError error) {
-
             }
         });
     }

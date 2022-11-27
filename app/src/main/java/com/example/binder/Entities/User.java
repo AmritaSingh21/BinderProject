@@ -11,7 +11,7 @@ public class User {
     private String dob;
     private ArrayList<String> preferences;
     private String gender;
-    private ArrayList<Integer> bookIds;
+    private ArrayList<String> bookIds;
 
     public User() {
     }
@@ -82,11 +82,11 @@ public class User {
         this.email = email;
     }
 
-    public ArrayList<Integer> getBookIds() {
+    public ArrayList<String> getBookIds() {
         return bookIds;
     }
 
-    public void setBookIds(ArrayList<Integer> bookIds) {
+    public void setBookIds(ArrayList<String> bookIds) {
         this.bookIds = bookIds;
     }
 }

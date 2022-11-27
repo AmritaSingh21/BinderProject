@@ -1,9 +1,20 @@
 package com.example.binder.Entities;
 
+import java.util.ArrayList;
+
 public class Book {
     private String title,author,genre,year,isbn,publisher,id, description;
     private double timeSpent;
     private int picId;
+    private ArrayList<String> userIds;
+
+    public ArrayList<String> getUserIds() {
+        return userIds;
+    }
+
+    public void setUserIds(ArrayList<String> userIds) {
+        this.userIds = userIds;
+    }
 
     public Book() {
     }
