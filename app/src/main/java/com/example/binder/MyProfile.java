@@ -4,7 +4,6 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -77,7 +76,7 @@ public class MyProfile extends AppCompatActivity {
         };
 
         BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
-        ImageButton btnedit = findViewById(R.id.btnEditProf);
+        ImageButton btnedit = findViewById(R.id.btnMessage);
 
         btnedit.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -57,6 +57,7 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.ViewHo
     public void onBindViewHolder(@NonNull MessagesAdapter.ViewHolder holder, int position) {
         Message message = messages.get(position);
         holder.msg_text.setText(message.getMessage());
+        holder.date_time.setText(message.getDate_time());
 
     }
 
@@ -67,13 +68,14 @@ public class MessagesAdapter extends RecyclerView.Adapter<MessagesAdapter.ViewHo
 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView msg_text;
+        TextView msg_text,date_time;
         ImageView uImage;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             context = itemView.getContext();
             msg_text =  itemView.findViewById(R.id.message);
+            date_time = itemView.findViewById(R.id.date_time);
             uImage = itemView.findViewById(R.id.uImage);
         }
     }

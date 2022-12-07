@@ -2653,6 +2653,7 @@ drawable ic_baseline_exit_to_app_24
 drawable ic_baseline_home_24
 drawable ic_baseline_lock_24
 drawable ic_baseline_menu_book_24
+drawable ic_baseline_person_24
 drawable ic_baseline_person_outline_24
 drawable ic_baseline_search_24
 drawable ic_clock_black_24dp
@@ -2746,6 +2747,7 @@ drawable rounded_edittext
 drawable test_level_drawable
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user
 font dancing_script_bold
 font poppins
 id ALT
@@ -2849,6 +2851,7 @@ id biography
 id blocking
 id bookPic
 id book_genre
+id book_search
 id book_year
 id bottom
 id bottom_menu
@@ -2863,8 +2866,9 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnBack
 id btnCreate
-id btnEditProf
 id btnEditSubmit
+id btnMessage
+id btnSearch
 id btnSignIn
 id btnSignUp
 id btn_send
@@ -2910,6 +2914,7 @@ id cut
 id dark
 id datePickerButton
 id date_picker_actions
+id date_time
 id decelerate
 id decelerateAndComplete
 id decor_content_parent
@@ -2959,10 +2964,10 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id errorMsg
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
-id fab3
 id fade
 id fantasy
 id female
@@ -3015,7 +3020,6 @@ id included
 id indeterminate
 id info
 id inpEmail
-id inpEmail2
 id inpPass
 id invisible
 id inward
@@ -3446,6 +3450,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_book_swipe2
+layout activity_chats
 layout activity_edit_profile
 layout activity_liked_books
 layout activity_main
@@ -3739,6 +3744,7 @@ string project_id
 string search_menu_title
 string status_bar_notification_info_overflow
 string submit
+string txtChats
 string txtEditAccountPage
 string txtLikedBooksPage
 string txtMatchedPage

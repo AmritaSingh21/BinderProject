@@ -4,8 +4,12 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.daprlabs.cardstack.SwipeDeck;
@@ -34,6 +38,7 @@ public class BookSwipe2 extends AppCompatActivity {
     private FirebaseAuth auth;
     private DatabaseReference dbRef;
     private FirebaseDatabase firebaseInstance;
+    private ImageButton btnMessage;
 
     SwipeAdapter adapter;
 
@@ -103,6 +108,14 @@ public class BookSwipe2 extends AppCompatActivity {
                     break;
             }
             return true;
+        });
+
+        btnMessage = findViewById(R.id.btnMessage);
+        btnMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(BookSwipe2.this,chatsActivity.class));
+            }
         });
 
     }

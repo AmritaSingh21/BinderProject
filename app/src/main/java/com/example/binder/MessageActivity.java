@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
@@ -27,6 +28,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 
@@ -97,13 +100,17 @@ public class MessageActivity extends AppCompatActivity {
 
     private void sendMessage(String sender,String receiver,String message){
         DatabaseReference reference = FirebaseDatabase.getInstance().getReference();
-
+        Calendar cal = Calendar.getInstance();
+        Date today = cal.getTime();
+        String[] parts = today.toString().split(" ");
         HashMap<String,Object> hm = new HashMap<>();
         hm.put("sender",sender);
         hm.put("receiver",receiver);
         hm.put("message",message);
+        hm.put("date_time",parts[0]+", "+parts[3]);
 
         reference.child("Messages").push().setValue(hm);
+
     }
 
     private void readMessage(String myId,String userId){

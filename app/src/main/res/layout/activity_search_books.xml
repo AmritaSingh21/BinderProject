@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,47 +9,37 @@
 
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab3"
-        android:layout_width="62dp"
+        android:id="@+id/btnSearch"
+        android:layout_width="53dp"
         android:layout_height="53dp"
-        android:layout_gravity="end|bottom"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="25dp"
+        android:layout_toRightOf="@+id/book_search"
         android:contentDescription="@string/submit"
         android:src="@drawable/ic_baseline_search_24"
-        app:backgroundTint="#dc82fd"
-        app:layout_constraintBottom_toTopOf="@+id/searchedBooks"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:backgroundTint="#dc82fd" />
 
     <EditText
-        android:id="@+id/inpEmail2"
-        android:layout_width="295dp"
+        android:id="@+id/book_search"
+        android:layout_width="220dp"
         android:layout_height="53dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
         android:background="@drawable/rounded_edittext"
         android:backgroundTint="#CBEDF6"
         android:ems="10"
         android:gravity="center|center_horizontal|center_vertical"
         android:hint="Enter book title"
         android:importantForAutofill="no"
-        android:inputType="textEmailAddress"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toStartOf="@+id/fab3"
-        app:layout_constraintHorizontal_bias="0.516"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:inputType="text"
+        android:textSize="16sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/searchedBooks"
         android:layout_width="410dp"
         android:layout_height="507dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toTopOf="@+id/bottom_menu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inpEmail2" />
+        android:layout_below="@+id/book_search"
+        android:layout_marginTop="16dp" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_menu"
@@ -62,8 +52,5 @@
         app:itemIconSize="18dp"
         app:itemIconTint="@color/bright_blue"
         app:itemTextColor="#007CD3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

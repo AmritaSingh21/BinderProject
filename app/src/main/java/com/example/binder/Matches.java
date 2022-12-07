@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 
 import com.example.binder.Adapters.BooksAdapter;
 import com.example.binder.Adapters.MatchesAdapter;
@@ -43,6 +44,13 @@ public class Matches extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_matches);
         Log.i("USER ID", this.toString());
+        ImageButton btnMessage = findViewById(R.id.btnMessage);
+        btnMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Matches.this,chatsActivity.class));
+            }
+        });
 
         //get book id from bundle
         bookId = getIntent().getExtras().get("bookID").toString();

@@ -44,7 +44,7 @@ public class MatchesAdapter extends RecyclerView.Adapter<MatchesAdapter.ViewHold
         holder.uName.setText(user.getName());
         holder.uAge.setText("24");
 
-        holder.uImage.setImageResource(R.drawable.book_cover_2);
+        holder.uImage.setImageResource(R.drawable.user);
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

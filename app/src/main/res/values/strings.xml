@@ -27,4 +27,5 @@
     <string name="txtProfilePage">My Profile</string>
     <string name="txtEditAccountPage">Edit Profile</string>
     <string name="labelEditPassword">Password</string>
+    <string name="txtChats">Chats</string>
 </resources>

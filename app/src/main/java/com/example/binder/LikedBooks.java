@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.ImageButton;
 
 import com.example.binder.Adapters.BooksAdapter;
 import com.example.binder.Adapters.SwipeAdapter;
@@ -42,6 +43,14 @@ public class LikedBooks extends AppCompatActivity implements BooksAdapter.ItemCl
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_liked_books);
+
+        ImageButton btnMessage = findViewById(R.id.btnMessage);
+        btnMessage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(LikedBooks.this,chatsActivity.class));
+            }
+        });
 
         bList = new ArrayList<>();
         auth = FirebaseAuth.getInstance();
