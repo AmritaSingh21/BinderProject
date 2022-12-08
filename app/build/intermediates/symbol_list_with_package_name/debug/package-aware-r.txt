@@ -2951,11 +2951,8 @@ id east
 id editBio
 id editEmail
 id editName
-id editUserAddress
-id editUserAge
-id editUserDob
+id editUserBio
 id editUserName
-id editUserPassword
 id editUserPw
 id edit_query
 id elastic
@@ -3029,11 +3026,9 @@ id jumpToEnd
 id jumpToStart
 id labelBio
 id labelDOB
-id labelEditAddress
+id labelEditBio
 id labelEditDob
 id labelEditName
-id labelEditPassword
-id labelEditage
 id labelEmail
 id labelGender
 id labelGenres
