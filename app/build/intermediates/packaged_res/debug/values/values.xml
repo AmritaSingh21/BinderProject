@@ -60,6 +60,7 @@
     <string name="passHint">Enter password</string>
     <string name="project_id" translatable="false">binder-3a2c8</string>
     <string name="submit">submit</string>
+    <string name="txtChats">Chats</string>
     <string name="txtEditAccountPage">Edit Profile</string>
     <string name="txtLikedBooksPage">Liked Books</string>
     <string name="txtMatchedPage">Matches</string>
