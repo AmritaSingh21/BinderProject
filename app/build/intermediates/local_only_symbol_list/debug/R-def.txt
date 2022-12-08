@@ -86,11 +86,8 @@ id description
 id editBio
 id editEmail
 id editName
-id editUserAddress
-id editUserAge
-id editUserDob
+id editUserBio
 id editUserName
-id editUserPassword
 id editUserPw
 id errorMsg
 id fantasy
@@ -105,11 +102,9 @@ id inpEmail
 id inpPass
 id labelBio
 id labelDOB
-id labelEditAddress
+id labelEditBio
 id labelEditDob
 id labelEditName
-id labelEditPassword
-id labelEditage
 id labelEmail
 id labelGender
 id labelGenres

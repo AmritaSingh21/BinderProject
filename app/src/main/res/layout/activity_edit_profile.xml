@@ -91,32 +91,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- label of editing password-->
-    <TextView
-        android:id="@+id/labelEditPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="30dp"
-        android:text="@string/labelEditPassword"
-        android:textColor="@color/dark_gray"
-        android:textSize="14sp"
-        android:textStyle="bold" />
     <!-- input of editing password -->
-    <EditText
-        android:id="@+id/editUserPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:gravity="center"
-        android:importantForAutofill="no"
-        android:inputType="textPassword"
-        android:text="1234"
-        android:textColor="@color/dark_gray"
-        android:textColorLink="@color/dark_gray"
-        android:textSize="16sp"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,DuplicateSpeakableTextCheck" />
 
     <!-- label of editing name-->
     <TextView
@@ -148,57 +123,32 @@
 
     <!-- label of editing email-->
     <TextView
-        android:id="@+id/labelEditage"
+        android:id="@+id/labelEditBio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
-        android:text="Age"
+        android:text="Bio"
         android:textColor="@color/dark_gray"
         android:textSize="14sp"
         android:textStyle="bold" />
     <!-- input of editing email -->
     <EditText
-        android:id="@+id/editUserAge"
+        android:id="@+id/editUserBio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:gravity="center"
         android:importantForAutofill="no"
-        android:inputType="textEmailAddress"
-        android:text="22"
+        android:inputType="text"
+        android:text="..."
         android:textColor="@color/dark_gray"
         android:textColorLink="@color/dark_gray"
         android:textSize="16sp"
         tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
-    <TextView
-        android:id="@+id/labelEditAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:text="Email"
-        android:textColor="@color/dark_gray"
-        android:textSize="14sp"
-        android:textStyle="bold" />
     <!-- input of editing address -->
-    <EditText
-        android:id="@+id/editUserAddress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:ems="10"
-        android:gravity="center"
-        android:importantForAutofill="no"
-        android:inputType="textPostalAddress"
-        android:text="abc@11.com"
-        android:textColor="@color/dark_gray"
-        android:textColorLink="@color/dark_gray"
-        android:textSize="16sp"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
 
     <!-- label of editing interest-->
     <TextView
@@ -215,20 +165,20 @@
     <!-- label of editing age-->
     <!-- input of editing age -->
     <!-- button of submitting -->
-    <EditText
-        android:id="@+id/editUserDob"
+    <Button
+        android:id="@+id/datePickerButton"
+        style="?android:spinnerStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:ems="10"
-        android:gravity="center"
-        android:importantForAutofill="no"
-        android:inputType="date"
-        android:textColor="@color/dark_gray"
-        android:textColorLink="@color/dark_gray"
-        android:textSize="16sp"
-        tools:ignore="TouchTargetSizeCheck,TextContrastCheck,SpeakableTextPresentCheck" />
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="openDatePicker"
+        android:text="JAN 01 2020"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/btnEditSubmit"
