@@ -2863,7 +2863,6 @@ int id browser_actions_menu_item_icon 0x7f0a006e
 int id browser_actions_menu_item_text 0x7f0a006f
 int id browser_actions_menu_items 0x7f0a0070
 int id browser_actions_menu_view 0x7f0a0071
-int id btnBack 0x7f0a0072
 int id btnCreate 0x7f0a0073
 int id btnEditSubmit 0x7f0a0074
 int id btnMessage 0x7f0a0075
