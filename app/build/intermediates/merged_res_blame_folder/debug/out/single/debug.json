@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-xhdpi_b5.jpg.flat",
-        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-xhdpi\\b5.jpg"
-    },
-    {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-hdpi_ic_action_name.png.flat",
         "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-hdpi\\ic_action_name.png"
+    },
+    {
+        "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-xhdpi_b5.jpg.flat",
+        "source": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-xhdpi\\b5.jpg"
     },
     {
         "merged": "C:\\Users\\DELL\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-xhdpi_b11.jpg.flat",
