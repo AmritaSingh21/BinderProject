@@ -5,12 +5,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
 import com.example.binder.Adapters.MatchesAdapter;
 import com.example.binder.Entities.Message;
 import com.example.binder.Entities.User;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.DataSnapshot;
@@ -40,6 +42,29 @@ public class chatsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chats);
+
+        BottomNavigationView bottom_menu = findViewById(R.id.bottom_menu);
+
+        bottom_menu.setSelectedItemId(R.id.menu_likedBooks);
+        bottom_menu.setOnItemSelectedListener(menuItem -> {
+            switch (menuItem.getItemId()) {
+                case (R.id.menu_searchBook):
+                    startActivity(new Intent(chatsActivity.this, SearchBooks.class));
+                    break;
+                case (R.id.menu_home):
+                    startActivity(new Intent(chatsActivity.this, BookSwipe2.class));
+                    break;
+                case (R.id.menu_my_profile):
+                    startActivity(new Intent(chatsActivity.this, MyProfile.class));
+                    break;
+                case (R.id.menu_likedBooks):
+                    startActivity(new Intent(chatsActivity.this, LikedBooks.class));
+                    break;
+                default:
+                    break;
+            }
+            return true;
+        });
 
         recyclerView = findViewById(R.id.recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
