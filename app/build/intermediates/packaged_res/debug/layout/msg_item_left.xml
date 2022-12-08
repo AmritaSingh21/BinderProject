@@ -35,15 +35,4 @@
         android:textColor="@color/white"
         android:textSize="16sp" />
 
-    <TextView
-        android:id="@+id/date_time"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/img"
-        android:layout_marginTop="1sp"
-        android:text="Name"
-
-        android:textColor="@color/dark_gray"
-        android:textSize="10sp"
-        android:textStyle="bold|italic" />
 </RelativeLayout>
