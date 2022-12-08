@@ -44,6 +44,10 @@
         "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\profile_image_list.xml"
     },
     {
+        "merged": "com.example.binder.app-merged_res-35:/layout_activity_my_profile.xml.flat",
+        "source": "com.example.binder.app-main-37:/layout/activity_my_profile.xml"
+    },
+    {
         "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-xhdpi_b11.jpg.flat",
         "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\drawable-xhdpi\\b11.jpg"
     },
@@ -102,10 +106,6 @@
     {
         "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\layout_activity_user_profile.xml.flat",
         "source": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-main-37:\\layout\\activity_user_profile.xml"
-    },
-    {
-        "merged": "com.example.binder.app-merged_res-35:/layout_activity_edit_profile.xml.flat",
-        "source": "com.example.binder.app-main-37:/layout/activity_edit_profile.xml"
     },
     {
         "merged": "C:\\Users\\Amrita Singh\\.gradle\\daemon\\7.3.3\\com.example.binder.app-merged_res-35:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
